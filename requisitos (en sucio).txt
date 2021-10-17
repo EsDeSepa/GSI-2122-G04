@@ -1,0 +1,18 @@
+Requisitos (a organizar en funcional, de informacion, ...)
+- Portfolio de aplicaciones
+- Formulario de estimacion de costo (y/o tiempo) de desarrollo
+- Información de contacto
+- Menú con botones a las páginas principales
+- Estado de las aplicaciones del portfolio (actualizandose, desarrollada, sin terminar, ...)
+- Valoración de clientes
+- Página principal
+- Slider con capturas de las aplicaciones
+- Página (/entrada) dedicada a cada aplicacion con informacion sobre esta
+- Que el portfolio este organizado en un grid (filas y columnas)
+- Que se use principalmente 2 o 3 colores en toda la pagina
+- Que el menu principal no tenga dropdown (subdivisiones)
+- Que en la informacion de contacto se cuente como es la empresa por dentro, dando una imagen de cercania
+- Que la pagina principal no tenga demasiado texto
+- Que la pagina principal sea visualmente agradable
+- Que exista un plugin de un recuadro de google maps con la ubicacion de la empresa
+- Que el menu principal este accesible en todas las paginas
