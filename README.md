@@ -6,4 +6,6 @@ En este repositorio se va a organizar el proyecto de Gestión de Sistemas de Inf
   - [Juan Pedro Hurtado Masero](https://github.com/Juanpepitt)
   - [Ignacio García Rodríguez](https://github.com/ign13101)
   - [Fran Zájara Gómez](https://github.com/FranZajara)
+  - [Fernando Pardo Beltrán](https://github.com/Nando13-hub)
+
   
