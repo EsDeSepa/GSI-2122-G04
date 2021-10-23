@@ -1,0 +1,76 @@
+Requisitos de Información:
+
+- Página principal con descripción breve de la empresa e imágenes
+
+- Slider en la página principal con las aplicaciones mejor valoradas
+
+- Menú principal presente en todas las páginas
+
+- Portfolio de las aplicaciones y el software desarrollado y el estado en el que se encuentran
+
+- Cabecera con logo, banner, correo de contacto y teléfono de contacto
+
+- Pie de página con pequeño resumen, tipo de software que se desarrolla, nombre, ubicación e información de contacto
+
+- Página de contacto con información de contacto y formulario de contacto
+
+- Formulario de estimación de costos y de tiempo
+
+- Cada aplicación desarrollada contiene la valoración del cliente
+
+- En la página de contacto hay un pequeño mapa de google maps con la ubicación de la empresa
+
+
+Requisitos Funcionales:
+
+- El menú principal tiene enlaces a todas las páginas principales
+
+- El menú principal es accesible desde todas las páginas
+
+- El formulario de contacto envía un correo electrónico con los campos rellenos en el formulario
+
+- En la página de portfolio, clicar en cada aplicación te lleva a su respectiva página o entrada
+
+- En el formulario de estimación se pueden implementar casillas con desplegables
+
+- El formulario de estimación devuelve un tiempo y costo estimado a partir de las respuestas en el formulario
+
+- Al clicar en el mapa de la página de contacto, te redirige a la página de google maps con la ubicación de la empresa
+
+
+Requisitos No Funcionales:
+
+- La página es accesible con rapidez y sin problemas de conexión por parte del servidor
+
+- La experiencia en la página es fluida, con pocas animaciones pero elegantes
+
+- La información y descripción de la empresa da una buena imagen de esta
+
+- Las aplicaciones en estado mas temprano de desarollo y las peor valoradas se encuentran al final
+
+- La página principal es visualmente agradable
+
+
+Requisitos de Interfaz de Usuario:
+
+- El portfolio organiza las aplicaciones en un sistema de filas y columnas (grid)
+
+- Todas las páginas usan principalmente el mismo esquema de colores, 2 o 3
+
+- En el menú principal y en otros menús no se usan desplegables, excepto en versiones móvil
+
+- El menú permanece pegado a la parte superior de la pantalla, siendo accesible desde cualquier parte
+
+- La página principal no contiene párrafos con mucho texto
+
+
+Reglas de negocio
+
+- Si una entrada del portfolio se borra, sigue siendo accesible, pero sólo para los administradores
+
+- Las valoraciones de clientes se tratan con el cliente, no se puede mandar una valoración a la página directamente
+
+- Si una aplicación no tiene valoración, se le pondrá una por defecto por los administradores
+
+- Un usuario no puede modificar el contenido de las páginas si no es un administrador
+
