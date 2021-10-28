@@ -1,3 +1,12 @@
+Objetivos:
+
+- Mejorar la imagen de la empresa
+
+- Destacar entre otras empresas del sector y aumentar nuestra cartera de clientes
+
+- Ser la opción predominante entre los clientes que buscan desarrollo de software
+
+
 Requisitos de Información:
 
 - Página principal con descripción breve de la empresa e imágenes
@@ -46,7 +55,7 @@ Requisitos No Funcionales:
 
 - La información y descripción de la empresa da una buena imagen de esta
 
-- Las aplicaciones en estado mas temprano de desarollo y las peor valoradas se encuentran al final
+- Las aplicaciones en estado más temprano de desarrollo y las peor valoradas se encuentran al final
 
 - La página principal es visualmente agradable
 
