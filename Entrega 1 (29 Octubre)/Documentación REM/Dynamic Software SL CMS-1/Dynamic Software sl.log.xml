@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rem:log xmlns:rem="http://rem.lsi.us.es">
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0006] Objetivos del Sistema del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [STK-0001] Julián Marqués García del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [STK-0005] Fran Zájara Gómez del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [PRG-0001] Resumen del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0003] Objetivo Z del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [ORG-0001] Dinamic Area del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [STK-0004] Ignacio García Rodríguez del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ORG-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [ORG-0002] Dynamic Software del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0004] Personas del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [STK-0006] Fernando Pardo Beltrán del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [STK-0002] José Pablo Carrasco Cobos del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [PRG-0002] Sistema Actual del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0003] Empresas del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0001] Objetivo X del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0001] Introducción del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [STK-0003] Juan Pedro Hurtado Masero del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0002] Miembros del Proyecto del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0005] Descripción del Sistema Actual del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0002] Objetivo Y del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0013] Requisitos Funcionales del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [NFR-0001] Páginas del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [IRQ-0003] Servicios del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0008] Requisitos de Información del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [FRQ-0004] Menú Principal del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [FRQ-0005] Contacto del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [CRQ-0001] Portfolio del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [IRQ-0002] Menús del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0007] Cátalogo de Requisitos del Sistema del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [FRQ-0006] Portfolio del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [CRQ-0002] Valoraciones de Clientes del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [FRQ-0003] Portfolio del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [IRQ-0001] Página Principal del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0009] Requisitos de Interfaz de Usuario y Funcionales del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0010] Requisitos No Funcionales del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0011] Reglas de Negocio del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [NFR-0002] Aplicaciones del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [CRQ-0003] Valoraciones de Aplicaciones del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [CRQ-0004] Modificaciones del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [FRQ-0007] Formulario de Estimación del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [FRQ-0001] Páginas del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0012] Requisitos de Interfaz de Usuario del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [FRQ-0002] Menús del proyecto C:\Users\José Pablo Carrasco\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\REM CMS-1\Dynamic Software.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([NFR-0003] Seguridad)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([FRQ-0004] Menú Principal)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización desarrolladora [ORG-0002] Dynamic Software]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización cliente [ORG-0001] Dinamic Area]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Dinamic Area] -> [Dinamic Zone]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([FRQ-0004] Menú Principal)]]></rem:description>
+</rem:change>
+</rem:log>

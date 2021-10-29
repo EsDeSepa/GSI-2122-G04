@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="iso-8859-1" />
+<meta name="generatedBy" content="REMUS" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/stylesheets/remus.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/stylesheets/madeja.css" />
+<title>Proyecto Dynamic Software sl</title>
+<script>
+            // array for user warnings
+            var warnings = new Array();
+        </script>
+</head>
+<body>
+<div id="warning_container" class="ui-widget">
+<span id="warning_title">Avisos</span>
+<div id="warning_messages"></div>
+</div>
+<div id="document_cover">
+<div id="browser_info">
+<script>
+                document.write( navigator.userAgent );
+            </script>
+</div>
+<div id="project_name">Proyecto Dynamic Software sl</div>
+<div id="document_logo">
+<img alt="Universidad de Sevilla" src="https://cdn.jsdelivr.net/gh/amador-duran-toro/rem/assets/images/logo_us.gif" />
+</div>
+<div id="document_name">Documento de Requisitos del Sistema</div>
+<div id="document_version">Versión 1.0</div>
+<div id="document_date">Fecha 29/10/2021</div>
+<div id="document_prepared_for">Preparado para:<p>
+<a href="#ORG-0001">Dinamic Zone</a>
+</p>
+</div>
+<div id="document_prepared_by">Preparado por:<p>
+<a href="#ORG-0002">Dynamic Software</a>
+</p>
+</div>
+</div>
+<div class="pagebreak"></div>
+<nav id="toc" role="navigation">
+<h1>Índice</h1>
+<ul class="toc_list toc_list_level_1">
+<li>1 <a href="#SEC-0001">Introducción</a></li>
+<li>2 <a href="#SEC-0002">Miembros del Proyecto</a></li>
+<ul class="toc_list">
+<li>2.1 <a href="#SEC-0003">Empresas</a></li>
+<li>2.2 <a href="#SEC-0004">Personas</a></li>
+</ul>
+<li>3 <a href="#SEC-0005">Descripción del Sistema Actual</a></li>
+<li>4 <a href="#SEC-0006">Objetivos del Sistema</a></li>
+<li>5 <a href="#SEC-0007">Cátalogo de Requisitos del Sistema</a></li>
+<ul class="toc_list">
+<li>5.1 <a href="#SEC-0008">Requisitos de Información</a></li>
+<li>5.2 <a href="#SEC-0009">Requisitos de Interfaz de Usuario y Funcionales</a></li>
+<ul class="toc_list">
+<li>5.2.1 <a href="#SEC-0010">Requisitos de Interfaz de Usuario</a></li>
+<li>5.2.2 <a href="#SEC-0011">Requisitos Funcionales</a></li>
+</ul>
+<li>5.3 <a href="#SEC-0012">Requisitos No Funcionales</a></li>
+<li>5.4 <a href="#SEC-0013">Reglas de Negocio</a></li>
+</ul>
+</ul>
+</nav>
+<div class="pagebreak"></div>
+<h1 id="SEC-0001" class="section">1 Introducción</h1>
+<div id="PRG-0001">
+<div id="PRG-0001-text-html" class=""><p>Este documento presenta la elicitación de requisitos para un proyecto de visibilidad de la asignatura Gestión de Sistemas de Información, del Grado en Tecnologías Informáticas de la Universidad de Sevilla. El proyecto se centra en la construcción de un sitio web para dar mayor visibilidad a la asignatura y a los contenidos relacionados con la misma</p></div>
+</div>
+<h1 id="SEC-0002" class="section">2 Miembros del Proyecto</h1>
+<h2 id="SEC-0003" class="section">2.1 Empresas</h2>
+<div id="ORG-0001">
+<table class="organization remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
+<th class="name_column" colspan="1">Dinamic Zone</th>
+</tr>
+</thead>
+<tr>
+<th>Dirección</th>
+<td colspan="1">
+<div id="ORG-0001-address-html" class=""><p>Carlos de Cepeda, 2</p></div>
+</td>
+</tr>
+<tr>
+<th>Teléfono</th>
+<td colspan="1">954633079</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ORG-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ORG-0002">
+<table class="organization remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
+<th class="name_column" colspan="1">Dynamic Software</th>
+</tr>
+</thead>
+<tr>
+<th>Dirección</th>
+<td colspan="1">
+<div id="ORG-0002-address-html" class=""><p>Campus de Reina Mercedes US, Avda de la Reina Mercedes</p></div>
+</td>
+</tr>
+<tr>
+<th>Teléfono</th>
+<td colspan="1">955420835</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ORG-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0004" class="section">2.2 Personas</h2>
+<div id="STK-0001">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Julián Marqués García</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0001">Dinamic Zone</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0001-stakeholderRole-html" class="">Empleado                        (es cliente, es usuario)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0002">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">José Pablo Carrasco Cobos</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Dynamic Software</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0002-stakeholderRole-html" class="">Alumno/Miembro del Grupo                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0003">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Juan Pedro Hurtado Masero</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Dynamic Software</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0003-stakeholderRole-html" class="">Alumno/Miembro del Grupo                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0004">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Ignacio García Rodríguez</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Dynamic Software</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0004-stakeholderRole-html" class="">Alumno/Miembro del Grupo                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0005">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Fran Zájara Gómez</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Dynamic Software</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0005-stakeholderRole-html" class="">Alumno/Miembro del Grupo                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0006">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Fernando Pardo Beltrán</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Dynamic Software</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0006-stakeholderRole-html" class="">Alumno/Miembro del Grupo                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h1 id="SEC-0005" class="section">3 Descripción del Sistema Actual</h1>
+<div id="PRG-0002">
+<div id="PRG-0002-text-html" class=""></div>
+</div>
+<h1 id="SEC-0006" class="section">4 Objetivos del Sistema</h1>
+<div id="OBJ-0001">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0001</th>
+<th class="name_column" colspan="1">Objetivo X</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="OBJ-0001-description-html" class=""><p>El sistema deberá <span class="tbd" title='Por determinar'>PD</span>.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="OBJ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0002">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0002</th>
+<th class="name_column" colspan="1">Objetivo Y</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="OBJ-0002-description-html" class=""><p>El sistema deberá <span class="tbd" title='Por determinar'>PD</span>.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="OBJ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0003">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0003</th>
+<th class="name_column" colspan="1">Objetivo Z</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="OBJ-0003-description-html" class=""><p>El sistema deberá <span class="tbd" title='Por determinar'>PD</span>.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="OBJ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h1 id="SEC-0007" class="section">5 Cátalogo de Requisitos del Sistema</h1>
+<h2 id="SEC-0008" class="section">5.1 Requisitos de Información</h2>
+<div id="IRQ-0001">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0001</th>
+<th class="name_column" colspan="2">Página Principal</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0001-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a la página principal con descripción breve de la empresa y imágenes. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0001">
+<span id="DAT-0001-description-html" class="">Slider de Aplicaciones</span>
+</li>
+<li id="DAT-0002">
+<span id="DAT-0002-description-html" class="">Pie de Página (<em>Posee un pequeño resumen, el tipo de software que lo desarrolla, nombre y  ubicación de la empresa</em>)</span>
+</li>
+<li id="DAT-0003">
+<span id="DAT-0003-description-html" class="">Cabecera (<em>Posee logo, banner, correo y formulario de contacto</em>)</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0002">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0002</th>
+<th class="name_column" colspan="2">Menús</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0002-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los menús del sistema y su información correspondiente y estará presente en todas las páginas. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data"><li id="DAT-0004">
+<span id="DAT-0004-description-html" class="">Contacto (<em>Posee información de contacto y su formulario correspondiente. También tiene un pequeño mapa de Google Maps</em>)</span>
+</li>
+<li id="DAT-0005">
+<span id="DAT-0005-description-html" class="">Costos y Tiempo (<em>Es un formulario de estimación de costos y tiempos</em>)</span>
+</li>
+<li id="DAT-0006">
+<span id="DAT-0006-description-html" class="">Portfolio (<em>Recoge las aplicaciones y el software desarrollado y el estado en el que se encuentran los mismos</em>)</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0003">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0003</th>
+<th class="name_column" colspan="2">Servicios</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0003-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los servicios prestados por la empresa, sobre todo el tema de las aplicaciones en desarrollo. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data"><li id="DAT-0007">
+<span id="DAT-0007-description-html" class="">Aplicaciones (<em>Poseen la valoración del cliente</em>)</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0009" class="section">5.2 Requisitos de Interfaz de Usuario y Funcionales</h2>
+<h3 id="SEC-0010" class="section">5.2.1 Requisitos de Interfaz de Usuario</h3>
+<div id="FRQ-0001">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0001</th>
+<th class="name_column" colspan="1">Páginas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0001-description-html" class=""><p>El sistema deberá usar el mismo esquema de colores, (2 o 3 como muchos) y  no contiene párrafos con mucho texto explicativo, entre otros aspectos.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0002">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0002</th>
+<th class="name_column" colspan="1">Menús</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0002-description-html" class=""><p>El sistema deberá no permitir el uso de desplegables siempre y cuando nos situemos en un dispostivo móvil y mantener dicho menú pegado a parte superior de la pantalla, para que sea accesible.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0003">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0003</th>
+<th class="name_column" colspan="1">Portfolio</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0003-description-html" class=""><p>El sistema deberá permitir organizar las aplicaciones en un sistema de filas y columnas (grid).</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0004">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0004</th>
+<th class="name_column" colspan="1">Menú Principal</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0004-description-html" class=""><p>El sistema deberá tener enlaces a todas las páginas principales y la misma ser accesible desde todas las páginas.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h3 id="SEC-0011" class="section">5.2.2 Requisitos Funcionales</h3>
+<div id="FRQ-0005">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0005</th>
+<th class="name_column" colspan="1">Contacto</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0005-description-html" class=""><p>El sistema deberá :</p>
+<ul>
+<li>Enviar un correo electrónico con los campos rellenos en el formulario</li>
+<li>Al ser clickeado el mapa, te redirige a Google Maps con la ubicación de la empresa.</li>
+</ul></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0006">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0006</th>
+<th class="name_column" colspan="1">Portfolio</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0006-description-html" class=""><p>El sistema deberá clickar en cada aplicación para que te lleva a su respectiva página o entrada.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0007">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0007</th>
+<th class="name_column" colspan="1">Formulario de Estimación</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0007-description-html" class=""><p>El sistema deberá permitir implementar casillas con desplegables, que te devuelva un tiempo y un costo estimado a partir de las respuestas del usuario/cliente.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0012" class="section">5.3 Requisitos No Funcionales</h2>
+<div id="NFR-0001">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0001</th>
+<th class="name_column" colspan="1">Páginas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="NFR-0001-description-html" class=""><p>El sistema deberá :</p>
+<ul>
+<li>es accesible con rápidez y sin problemas de conexión por parte del servidor</li>
+<li>buscar en el cliente que tenga una experiencia fluida con pocas animaciones pero elegantes y que sea visualmente agradable</li>
+<li>mostrar una buena imagen por parte de la empresa   <br />
+.</li>
+</ul></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="NFR-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="NFR-0002">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0002</th>
+<th class="name_column" colspan="1">Aplicaciones</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="NFR-0002-description-html" class=""><p>El sistema deberá colocar las aplicaciones en estado mas temprano de desarollo y las peor valoradas, al final del listado de las mismas.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="NFR-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="NFR-0003">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0003</th>
+<th class="name_column" colspan="1">Seguridad</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="NFR-0003-description-html" class=""><p>El sistema deberá ser seguro.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="NFR-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0013" class="section">5.4 Reglas de Negocio</h2>
+<div id="CRQ-0001">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0001</th>
+<th class="name_column" colspan="1">Portfolio</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0001-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: Si tiene una entrada que es borrada, seguirá siendo accesible solo para administradores.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0002">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0002</th>
+<th class="name_column" colspan="1">Valoraciones de Clientes</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0002-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: Se tratan con el cliente, no se puede mandar una valoración a la página directamente.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0003">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0003</th>
+<th class="name_column" colspan="1">Valoraciones de Aplicaciones</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0003-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: Si no tiene una valoración, los administradores deberan de asignarle una por defecto.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0004">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0004</th>
+<th class="name_column" colspan="1">Modificaciones</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (29/10/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0004-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: Un usuario no puede modficiar el contenido de las páginas siempre y cuando no sea administrador.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+            // set tooltips of rem:ref references to glossary items or class supertypes
+            $( ".rem_ref" ).each( function () {
+                var sharp_position = this.href.lastIndexOf("#");
+                var id_glossary_item = this.href.substring( sharp_position + 1 ) + "-text-html";
+                var id_supertype = this.href.substring( sharp_position + 1 ) + "-description-html";
+
+                // some rem:refs to use cases do not have -text-html elements
+                if ( document.getElementById( id_glossary_item ) )
+                    this.title = document.getElementById( id_glossary_item ).innerText;
+
+                else if ( document.getElementById( id_supertype ) )
+                    this.title = document.getElementById( id_supertype ).innerText;
+            });
+
+            // set tooltips of rem:tbd elements
+            $( ".tbd" ).each( function () {
+                this.title = 'Por determinar';
+            });
+
+            // show warnings (if any)
+            if ( warnings.length ) {
+                var warning_list = $("<ul></ul>");
+                for ( var i = 0; i < warnings.length; i++ ) {
+                    var warning = warnings[ i ];
+                    var warning_link = $('<a href="#' + warning.oid + '">' + warning.oid + '</a>' );
+                    var warning_message = ": " + warning.message;
+                    var warning_item = $("<li></li>").append(warning_link, warning_message);
+
+                    warning_list.append( warning_item );
+                }
+                $("#warning_messages").append( warning_list );
+                $("#warning_container").show();
+            }
+
+            // manage traceability matrices buttons
+            function update_font_size( parent_table, size )
+            {
+                var matrix_columns = parent_table.find( "th.matrix_column" );
+                var font_size = parseInt( matrix_columns.eq(0).css( "font-size" ), 10 );
+
+                matrix_columns.css( "font-size", font_size + size );
+            }
+
+            $( "button.reduce_font" ).click( function() {
+                var parent_table = $(this).parents( "table.traceability_matrix" );
+                update_font_size( parent_table, -1 );
+            });
+
+            $( "button.increase_font" ).click( function() {
+                var parent_table = $(this).parents( "table.traceability_matrix" );
+                update_font_size( parent_table, 1 );
+            });
+        </script>
+<script src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/javascripts/ie7-shim-min-width.js"></script>
+<script>
+            fixMinWidthForIE();
+        </script>
+</body>
+</html>
