@@ -59,6 +59,8 @@ Requisitos No Funcionales:
 
 - La página principal es visualmente agradable
 
+- La página tiene que ser segura
+
 
 Requisitos de Interfaz de Usuario:
 
