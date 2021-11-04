@@ -2,8 +2,8 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
     <div id="t-f39803f7-df02-4169-93eb-7547fb8c961a" class="template growth-both devWeb canvas firer commentable non-processed" alignment="left" name="Template 1" width="1280" height="800">\
     <div id="backgroundBox"><div class="colorLayer"></div><div class="imageLayer"></div></div>\
     <div id="alignmentBox">\
-      <link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1635983740933.css" />\
-      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1635983740933-ie.css" /><![endif]-->\
+      <link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1636052951799.css" />\
+      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1636052951799-ie.css" /><![endif]-->\
       <!--[if lte IE 8]><![endif]-->\
       <div class="freeLayout">\
       </div>\
@@ -15,9 +15,9 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
     <div id="s-e451408d-ccbc-4a45-892d-07da50b96b4f" class="screen growth-vertical devWeb canvas PORTRAIT firer ie-background commentable non-processed" alignment="left" name="PORTFOLIO info" width="1280" height="800">\
     <div id="backgroundBox"><div class="colorLayer"></div><div class="imageLayer"></div></div>\
     <div id="alignmentBox">\
-      <link type="text/css" rel="stylesheet" href="./resources/screens/e451408d-ccbc-4a45-892d-07da50b96b4f-1635983740933.css" />\
-      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/screens/e451408d-ccbc-4a45-892d-07da50b96b4f-1635983740933-ie.css" /><![endif]-->\
-      <!--[if lte IE 8]><link type="text/css" rel="stylesheet" href="./resources/screens/e451408d-ccbc-4a45-892d-07da50b96b4f-1635983740933-ie8.css" /><![endif]-->\
+      <link type="text/css" rel="stylesheet" href="./resources/screens/e451408d-ccbc-4a45-892d-07da50b96b4f-1636052951799.css" />\
+      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/screens/e451408d-ccbc-4a45-892d-07da50b96b4f-1636052951799-ie.css" /><![endif]-->\
+      <!--[if lte IE 8]><link type="text/css" rel="stylesheet" href="./resources/screens/e451408d-ccbc-4a45-892d-07da50b96b4f-1636052951799-ie8.css" /><![endif]-->\
       <div class="freeLayout">\
       <div id="s-Group_2" class="group firer ie-background commentable non-processed" customid="Group_1" datasizewidth="1024.0px" datasizeheight="615.0px" >\
         <div id="s-Rectangle_16" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_8"   datasizewidth="300.0px" datasizeheight="257.0px" datasizewidthpx="300.0" datasizeheightpx="256.99999999999994" dataX="168.0" dataY="599.0" >\
@@ -88,7 +88,7 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
           </div>\
         </div>\
       </div>\
-      <div id="s-Paragraph_6" class="pie richtext manualfit firer ie-background commentable non-processed" customid="PORTFOLIO INFO"   datasizewidth="485.0px" datasizeheight="90.0px" dataX="95.5" dataY="400.0" >\
+      <div id="s-Paragraph_6" class="pie richtext manualfit firer ie-background commentable non-processed" customid="*ITEM* INFO"   datasizewidth="485.0px" datasizeheight="90.0px" dataX="95.5" dataY="400.0" >\
         <div class="backgroundLayer">\
           <div class="colorLayer"></div>\
           <div class="imageLayer"></div>\
@@ -97,7 +97,7 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
           <div class="paddingLayer">\
             <div class="content">\
               <div class="valign">\
-                <span id="rtr-s-Paragraph_6_0">PORTFOLIO INFO</span>\
+                <span id="rtr-s-Paragraph_6_0">*ITEM* INFO</span>\
               </div>\
             </div>\
           </div>\
@@ -507,7 +507,7 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
       </div>\
 \
 \
-      <div id="s-Image_25" class="pie image firer click ie-background commentable non-processed" customid="Image_24"   datasizewidth="238.0px" datasizeheight="239.0px" dataX="571.0" dataY="46.0"   alt="image">\
+      <div id="s-Image_25" class="pie image firer click ie-background commentable non-processed" customid="Image_24"   datasizewidth="238.0px" datasizeheight="239.0px" dataX="521.0" dataY="0.0"   alt="image">\
         <div class="borderLayer">\
         	<div class="imageViewport">\
         		<img src="./images/520cbaef-9203-43a8-ad8e-3a03bad5ea6e.png" />\
@@ -515,6 +515,21 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
         </div>\
       </div>\
 \
+      <div id="s-Text_6" class="pie richtext manualfit firer mousedown mouseup click ie-background commentable non-processed" customid="PORTFOLIO INFO"   datasizewidth="125.0px" datasizeheight="70.0px" dataX="882.0" dataY="330.0" >\
+        <div class="backgroundLayer">\
+          <div class="colorLayer"></div>\
+          <div class="imageLayer"></div>\
+        </div>\
+        <div class="borderLayer">\
+          <div class="paddingLayer">\
+            <div class="content">\
+              <div class="valign">\
+                <span id="rtr-s-Text_6_0">PORTFOLIO INFO</span>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
       </div>\
 \
       </div>\

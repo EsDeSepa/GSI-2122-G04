@@ -1939,6 +1939,55 @@ _:-ms-fullscreen, :root #s-d12245cc-1680-458d-89dd-4f0d7fb22724 #s-Image_25 {
   box-shadow: none;
 }
 
+#s-d12245cc-1680-458d-89dd-4f0d7fb22724 #s-Text_6 {
+  position: absolute;
+  width: 125.0px;
+  min-height: 70.0px;
+  -webkit-transform: rotate(0.0deg);
+  -moz-transform: rotate(0.0deg);
+  transform: rotate(0.0deg);
+  filter: none;
+  text-shadow: none;
+  cursor: pointer;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  font-size: 0pt;
+  font-family: 'OpenSans-Regular',Arial;
+}
+
+_:-ms-fullscreen, :root #s-d12245cc-1680-458d-89dd-4f0d7fb22724 #s-Text_6 {
+  box-shadow: none;
+}
+
+#s-d12245cc-1680-458d-89dd-4f0d7fb22724 #s-Text_6 .paddingLayer:first-child {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+#s-d12245cc-1680-458d-89dd-4f0d7fb22724 #s-Text_6 .valign {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#s-d12245cc-1680-458d-89dd-4f0d7fb22724 #s-Text_6 span {
+  color: #CCCCCC;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'OpenSans-Regular',Arial;
+  font-size: 7.5pt;
+}
+
+#s-d12245cc-1680-458d-89dd-4f0d7fb22724 #s-Text_6 span#rtr-s-Text_6_0 {
+  color: #CCCCCC;
+  text-decoration: none;
+  font-family: 'OpenSans-Regular',Arial;
+  font-size: 7.5pt;
+}
+
 .devMobile #jim-container .ui-page {
   overflow-x: hidden;
 }

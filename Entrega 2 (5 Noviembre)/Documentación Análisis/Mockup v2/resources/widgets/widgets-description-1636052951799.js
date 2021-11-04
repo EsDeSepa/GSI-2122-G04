@@ -183,17 +183,9 @@
 
 			widgets.rootWidgetMap[["s-Image_26", "7c0fe5fb-3511-4422-8920-8cd5fac431b6"]] = ["Picture", "s-Image_26"]; 
 
-	widgets.descriptionMap[["s-Rectangle_3", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
+	widgets.descriptionMap[["s-Paragraph_10", "7c0fe5fb-3511-4422-8920-8cd5fac431b6"]] = ""; 
 
-			widgets.rootWidgetMap[["s-Rectangle_3", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_1"]; 
-
-	widgets.descriptionMap[["s-Rectangle_8", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Rectangle_8", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_1"]; 
-
-	widgets.descriptionMap[["s-Rectangle_9", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Rectangle_9", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_1"]; 
+			widgets.rootWidgetMap[["s-Paragraph_10", "7c0fe5fb-3511-4422-8920-8cd5fac431b6"]] = ["Title", "s-Paragraph_10"]; 
 
 	widgets.descriptionMap[["s-Rectangle_11", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
 
@@ -207,18 +199,6 @@
 
 			widgets.rootWidgetMap[["s-Rectangle_17", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_2"]; 
 
-	widgets.descriptionMap[["s-Rectangle_4", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Rectangle_4", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_3"]; 
-
-	widgets.descriptionMap[["s-Rectangle_10", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Rectangle_10", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_3"]; 
-
-	widgets.descriptionMap[["s-Rectangle_12", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Rectangle_12", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_3"]; 
-
 	widgets.descriptionMap[["s-Image_35", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
 
 			widgets.rootWidgetMap[["s-Image_35", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["User icon", "s-Image_35"]; 
@@ -231,54 +211,6 @@
 
 			widgets.rootWidgetMap[["s-Paragraph_6", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h2", "s-Paragraph_6"]; 
 
-	widgets.descriptionMap[["s-Paragraph_4", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_4", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h3", "s-Paragraph_4"]; 
-
-	widgets.descriptionMap[["s-Paragraph_7", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_7", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h4", "s-Paragraph_7"]; 
-
-	widgets.descriptionMap[["s-Paragraph_8", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_8", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h3", "s-Paragraph_8"]; 
-
-	widgets.descriptionMap[["s-Paragraph_9", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_9", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h4", "s-Paragraph_9"]; 
-
-	widgets.descriptionMap[["s-Paragraph_10", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_10", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h3", "s-Paragraph_10"]; 
-
-	widgets.descriptionMap[["s-Paragraph_11", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_11", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h4", "s-Paragraph_11"]; 
-
-	widgets.descriptionMap[["s-Paragraph_12", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_12", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h3", "s-Paragraph_12"]; 
-
-	widgets.descriptionMap[["s-Paragraph_13", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_13", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h4", "s-Paragraph_13"]; 
-
-	widgets.descriptionMap[["s-Paragraph_14", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_14", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h3", "s-Paragraph_14"]; 
-
-	widgets.descriptionMap[["s-Paragraph_15", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_15", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h4", "s-Paragraph_15"]; 
-
-	widgets.descriptionMap[["s-Paragraph_16", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_16", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h3", "s-Paragraph_16"]; 
-
-	widgets.descriptionMap[["s-Paragraph_17", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_17", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["h4", "s-Paragraph_17"]; 
-
 	widgets.descriptionMap[["s-Image_1", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
 
 			widgets.rootWidgetMap[["s-Image_1", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Image placeholder", "s-Image_1"]; 
@@ -286,18 +218,6 @@
 	widgets.descriptionMap[["s-Image_3", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
 
 			widgets.rootWidgetMap[["s-Image_3", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Image placeholder", "s-Image_3"]; 
-
-	widgets.descriptionMap[["s-Image_4", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Image_4", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Image placeholder", "s-Image_4"]; 
-
-	widgets.descriptionMap[["s-Image_5", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Image_5", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Image placeholder", "s-Image_5"]; 
-
-	widgets.descriptionMap[["s-Image_6", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Image_6", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Image placeholder", "s-Image_6"]; 
 
 	widgets.descriptionMap[["s-Image_8", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
 
@@ -314,10 +234,6 @@
 	widgets.descriptionMap[["s-Image_2", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
 
 			widgets.rootWidgetMap[["s-Image_2", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Menu burger", "s-Image_2"]; 
-
-	widgets.descriptionMap[["s-Image_11", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Image_11", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Image placeholder", "s-Image_11"]; 
 
 	widgets.descriptionMap[["s-Image_12", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
 
@@ -387,45 +303,49 @@
 
 			widgets.rootWidgetMap[["s-Image_25", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Picture", "s-Image_25"]; 
 
+	widgets.descriptionMap[["s-Rectangle_12", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_12", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_3"]; 
+
+	widgets.descriptionMap[["s-Rectangle_18", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_18", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_3"]; 
+
+	widgets.descriptionMap[["s-Rectangle_19", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_19", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_3"]; 
+
+	widgets.descriptionMap[["s-Image_4", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_4", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Image placeholder", "s-Image_4"]; 
+
+	widgets.descriptionMap[["s-Image_5", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_5", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Image placeholder", "s-Image_5"]; 
+
+	widgets.descriptionMap[["s-Rectangle_14", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_14", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_5"]; 
+
+	widgets.descriptionMap[["s-Rectangle_20", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_20", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_5"]; 
+
+	widgets.descriptionMap[["s-Rectangle_21", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_21", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Blog 4", "s-Group_5"]; 
+
+	widgets.descriptionMap[["s-Image_6", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_6", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Image placeholder", "s-Image_6"]; 
+
+	widgets.descriptionMap[["s-Image_7", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_7", "9e907936-99d3-47a3-aace-e4b8f5d58fd8"]] = ["Image placeholder", "s-Image_7"]; 
+
 	widgets.descriptionMap[["s-Image_35", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
 
 			widgets.rootWidgetMap[["s-Image_35", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["User icon", "s-Image_35"]; 
-
-	widgets.descriptionMap[["s-Rectangle_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Rectangle_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Button dark", "s-Rectangle_4"]; 
-
-	widgets.descriptionMap[["s-Input_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Input_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Contact 3", "s-Group_1"]; 
-
-	widgets.descriptionMap[["s-Input_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Input_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Contact 3", "s-Group_1"]; 
-
-	widgets.descriptionMap[["s-Input_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Input_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Contact 3", "s-Group_1"]; 
-
-	widgets.descriptionMap[["s-Input_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Input_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Contact 3", "s-Group_1"]; 
-
-	widgets.descriptionMap[["s-Input_5", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Input_5", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Contact 3", "s-Group_1"]; 
-
-	widgets.descriptionMap[["s-Paragraph_7", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_7", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_7"]; 
-
-	widgets.descriptionMap[["s-Paragraph_8", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_8", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_8"]; 
-
-	widgets.descriptionMap[["s-Paragraph_9", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_9", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_9"]; 
 
 	widgets.descriptionMap[["s-Rectangle_5", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
 
@@ -434,30 +354,6 @@
 	widgets.descriptionMap[["s-Paragraph_6", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
 
 			widgets.rootWidgetMap[["s-Paragraph_6", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["h2", "s-Paragraph_6"]; 
-
-	widgets.descriptionMap[["s-Paragraph_10", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_10", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_10"]; 
-
-	widgets.descriptionMap[["s-Paragraph_11", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_11", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_11"]; 
-
-	widgets.descriptionMap[["s-Paragraph_12", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_12", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_12"]; 
-
-	widgets.descriptionMap[["s-Category", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Category", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Native dropdown", "s-Category"]; 
-
-	widgets.descriptionMap[["s-Paragraph_13", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_13", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_13"]; 
-
-	widgets.descriptionMap[["s-Category_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Category_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Native dropdown", "s-Category_1"]; 
 
 	widgets.descriptionMap[["s-Image_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
 
@@ -474,10 +370,6 @@
 	widgets.descriptionMap[["s-Image_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
 
 			widgets.rootWidgetMap[["s-Image_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Menu burger", "s-Image_2"]; 
-
-	widgets.descriptionMap[["s-Paragraph_15", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
-
-			widgets.rootWidgetMap[["s-Paragraph_15", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_15"]; 
 
 	widgets.descriptionMap[["s-Image_9", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
 
@@ -546,6 +438,194 @@
 	widgets.descriptionMap[["s-Image_25", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
 
 			widgets.rootWidgetMap[["s-Image_25", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Picture", "s-Image_25"]; 
+
+	widgets.descriptionMap[["s-Line_6", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Line_6", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Line", "s-Line_6"]; 
+
+	widgets.descriptionMap[["s-Circle_8", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Circle_8", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Circle", "s-Circle_8"]; 
+
+	widgets.descriptionMap[["s-Circle_9", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Circle_9", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Circle", "s-Circle_9"]; 
+
+	widgets.descriptionMap[["s-Circle_10", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Circle_10", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Circle", "s-Circle_10"]; 
+
+	widgets.descriptionMap[["s-Image_20", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_20", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Close icon", "s-Image_20"]; 
+
+	widgets.descriptionMap[["s-Image_19", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_19", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Check mark", "s-Image_19"]; 
+
+	widgets.descriptionMap[["s-Image_23", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_23", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Close icon", "s-Image_23"]; 
+
+	widgets.descriptionMap[["s-Category_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Category_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Native dropdown", "s-Category_1"]; 
+
+	widgets.descriptionMap[["s-Paragraph_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Paragraph_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Paragraph", "s-Paragraph_1"]; 
+
+	widgets.descriptionMap[["s-Paragraph_5", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Paragraph_5", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["h4", "s-Paragraph_5"]; 
+
+	widgets.descriptionMap[["s-Category", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Category", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Radio List", "s-Category"]; 
+
+	widgets.descriptionMap[["s-Paragraph_7", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Paragraph_7", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["h4", "s-Paragraph_7"]; 
+
+	widgets.descriptionMap[["s-Rectangle_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dark button", "s-Rectangle_4"]; 
+
+	widgets.descriptionMap[["s-Panel_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Panel_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dynamic Panel", "s-Dynamic_Panel"]; 
+
+	widgets.descriptionMap[["s-Path_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Path_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Line", "s-Path_1"]; 
+
+	widgets.descriptionMap[["s-Ellipse_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Ellipse_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Circle", "s-Ellipse_1"]; 
+
+	widgets.descriptionMap[["s-Ellipse_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Ellipse_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Circle", "s-Ellipse_2"]; 
+
+	widgets.descriptionMap[["s-Ellipse_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Ellipse_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Circle", "s-Ellipse_3"]; 
+
+	widgets.descriptionMap[["s-Image_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Check mark", "s-Image_4"]; 
+
+	widgets.descriptionMap[["s-Image_6", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_6", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Close icon", "s-Image_6"]; 
+
+	widgets.descriptionMap[["s-Category_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Category_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Radio List", "s-Category_3"]; 
+
+	widgets.descriptionMap[["s-Paragraph_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Paragraph_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["h4", "s-Paragraph_4"]; 
+
+	widgets.descriptionMap[["s-Image_7", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_7", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Check mark", "s-Image_7"]; 
+
+	widgets.descriptionMap[["s-Rectangle_6", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_6", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dark button", "s-Rectangle_6"]; 
+
+	widgets.descriptionMap[["s-Rectangle_9", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_9", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dark button", "s-Rectangle_9"]; 
+
+	widgets.descriptionMap[["s-Panel_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Panel_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dynamic Panel", "s-Dynamic_Panel"]; 
+
+	widgets.descriptionMap[["s-Path_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Path_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Line", "s-Path_2"]; 
+
+	widgets.descriptionMap[["s-Ellipse_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Ellipse_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Circle", "s-Ellipse_4"]; 
+
+	widgets.descriptionMap[["s-Ellipse_5", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Ellipse_5", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Circle", "s-Ellipse_5"]; 
+
+	widgets.descriptionMap[["s-Ellipse_6", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Ellipse_6", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Circle", "s-Ellipse_6"]; 
+
+	widgets.descriptionMap[["s-Image_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Check mark", "s-Image_3"]; 
+
+	widgets.descriptionMap[["s-Image_18", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_18", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Check mark", "s-Image_18"]; 
+
+	widgets.descriptionMap[["s-Rectangle_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dark button", "s-Rectangle_2"]; 
+
+	widgets.descriptionMap[["s-Rectangle_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dark button", "s-Rectangle_3"]; 
+
+	widgets.descriptionMap[["s-Image_24", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Image_24", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Check mark", "s-Image_24"]; 
+
+	widgets.descriptionMap[["s-Rectangle_10", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Rectangle_10", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Rectangle", "s-Rectangle_10"]; 
+
+	widgets.descriptionMap[["s-Input_5", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Input_5", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dynamic Panel", "s-Dynamic_Panel"]; 
+
+	widgets.descriptionMap[["s-Paragraph_11", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Paragraph_11", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_11"]; 
+
+	widgets.descriptionMap[["s-Input_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Input_4", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dynamic Panel", "s-Dynamic_Panel"]; 
+
+	widgets.descriptionMap[["s-Input_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Input_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dynamic Panel", "s-Dynamic_Panel"]; 
+
+	widgets.descriptionMap[["s-Paragraph_10", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Paragraph_10", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_10"]; 
+
+	widgets.descriptionMap[["s-Paragraph_9", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Paragraph_9", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_9"]; 
+
+	widgets.descriptionMap[["s-Input_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Input_2", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dynamic Panel", "s-Dynamic_Panel"]; 
+
+	widgets.descriptionMap[["s-Paragraph_8", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Paragraph_8", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_8"]; 
+
+	widgets.descriptionMap[["s-Input_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Input_1", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dynamic Panel", "s-Dynamic_Panel"]; 
+
+	widgets.descriptionMap[["s-Paragraph_12", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Paragraph_12", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Title", "s-Paragraph_12"]; 
+
+	widgets.descriptionMap[["s-Panel_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ""; 
+
+			widgets.rootWidgetMap[["s-Panel_3", "bf1a1caa-7fd2-4279-a19e-5efbd64d6840"]] = ["Dynamic Panel", "s-Dynamic_Panel"]; 
 
 	widgets.descriptionMap[["s-Rectangle_16", "e451408d-ccbc-4a45-892d-07da50b96b4f"]] = ""; 
 

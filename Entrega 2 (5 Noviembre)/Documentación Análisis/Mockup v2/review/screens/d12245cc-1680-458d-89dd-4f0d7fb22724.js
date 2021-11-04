@@ -2,8 +2,8 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
     <div id="t-f39803f7-df02-4169-93eb-7547fb8c961a" class="template growth-both devWeb canvas firer commentable non-processed" alignment="left" name="Template 1" width="1280" height="800">\
     <div id="backgroundBox"><div class="colorLayer"></div><div class="imageLayer"></div></div>\
     <div id="alignmentBox">\
-      <link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1635983740933.css" />\
-      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1635983740933-ie.css" /><![endif]-->\
+      <link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1636052951799.css" />\
+      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1636052951799-ie.css" /><![endif]-->\
       <!--[if lte IE 8]><![endif]-->\
       <div class="freeLayout">\
       </div>\
@@ -15,9 +15,9 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
     <div id="s-d12245cc-1680-458d-89dd-4f0d7fb22724" class="screen growth-vertical devWeb canvas PORTRAIT firer ie-background commentable non-processed" alignment="left" name="HOME" width="1280" height="800">\
     <div id="backgroundBox"><div class="colorLayer"></div><div class="imageLayer"></div></div>\
     <div id="alignmentBox">\
-      <link type="text/css" rel="stylesheet" href="./resources/screens/d12245cc-1680-458d-89dd-4f0d7fb22724-1635983740933.css" />\
-      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/screens/d12245cc-1680-458d-89dd-4f0d7fb22724-1635983740933-ie.css" /><![endif]-->\
-      <!--[if lte IE 8]><link type="text/css" rel="stylesheet" href="./resources/screens/d12245cc-1680-458d-89dd-4f0d7fb22724-1635983740933-ie8.css" /><![endif]-->\
+      <link type="text/css" rel="stylesheet" href="./resources/screens/d12245cc-1680-458d-89dd-4f0d7fb22724-1636052951799.css" />\
+      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/screens/d12245cc-1680-458d-89dd-4f0d7fb22724-1636052951799-ie.css" /><![endif]-->\
+      <!--[if lte IE 8]><link type="text/css" rel="stylesheet" href="./resources/screens/d12245cc-1680-458d-89dd-4f0d7fb22724-1636052951799-ie8.css" /><![endif]-->\
       <div class="freeLayout">\
       <div id="s-Paragraph_1" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="400.0px" datasizeheight="133.0px" dataX="14.0" dataY="2671.0" >\
         <div class="backgroundLayer">\
@@ -778,7 +778,7 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
         </div>\
       </div>\
 \
-      <div id="s-Image_25" class="pie image firer click ie-background commentable non-processed" customid="Image_24"   datasizewidth="238.0px" datasizeheight="239.0px" dataX="565.0" dataY="47.0"   alt="image">\
+      <div id="s-Image_25" class="pie image firer click ie-background commentable non-processed" customid="Image_24"   datasizewidth="238.0px" datasizeheight="239.0px" dataX="521.0" dataY="64.0"   alt="image">\
         <div class="borderLayer">\
         	<div class="imageViewport">\
         		<img src="./images/520cbaef-9203-43a8-ad8e-3a03bad5ea6e.png" />\
@@ -786,6 +786,21 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
         </div>\
       </div>\
 \
+      <div id="s-Text_6" class="pie richtext manualfit firer mousedown mouseup click ie-background commentable non-processed" customid="PORTFOLIO INFO"   datasizewidth="125.0px" datasizeheight="70.0px" dataX="882.0" dataY="318.5" >\
+        <div class="backgroundLayer">\
+          <div class="colorLayer"></div>\
+          <div class="imageLayer"></div>\
+        </div>\
+        <div class="borderLayer">\
+          <div class="paddingLayer">\
+            <div class="content">\
+              <div class="valign">\
+                <span id="rtr-s-Text_6_0">PORTFOLIO INFO</span>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
       </div>\
 \
       </div>\

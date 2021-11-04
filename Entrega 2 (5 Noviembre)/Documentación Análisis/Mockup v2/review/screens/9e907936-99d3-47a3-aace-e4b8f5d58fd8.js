@@ -2,8 +2,8 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
     <div id="t-f39803f7-df02-4169-93eb-7547fb8c961a" class="template growth-both devWeb canvas firer commentable non-processed" alignment="left" name="Template 1" width="1280" height="800">\
     <div id="backgroundBox"><div class="colorLayer"></div><div class="imageLayer"></div></div>\
     <div id="alignmentBox">\
-      <link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1635983740933.css" />\
-      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1635983740933-ie.css" /><![endif]-->\
+      <link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1636052951799.css" />\
+      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/templates/f39803f7-df02-4169-93eb-7547fb8c961a-1636052951799-ie.css" /><![endif]-->\
       <!--[if lte IE 8]><![endif]-->\
       <div class="freeLayout">\
       </div>\
@@ -15,61 +15,12 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
     <div id="s-9e907936-99d3-47a3-aace-e4b8f5d58fd8" class="screen growth-vertical devWeb canvas PORTRAIT firer ie-background commentable non-processed" alignment="left" name="PORTFOLIO" width="1280" height="800">\
     <div id="backgroundBox"><div class="colorLayer"></div><div class="imageLayer"></div></div>\
     <div id="alignmentBox">\
-      <link type="text/css" rel="stylesheet" href="./resources/screens/9e907936-99d3-47a3-aace-e4b8f5d58fd8-1635983740933.css" />\
-      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/screens/9e907936-99d3-47a3-aace-e4b8f5d58fd8-1635983740933-ie.css" /><![endif]-->\
-      <!--[if lte IE 8]><link type="text/css" rel="stylesheet" href="./resources/screens/9e907936-99d3-47a3-aace-e4b8f5d58fd8-1635983740933-ie8.css" /><![endif]-->\
+      <link type="text/css" rel="stylesheet" href="./resources/screens/9e907936-99d3-47a3-aace-e4b8f5d58fd8-1636052951799.css" />\
+      <!--[if IE]><link type="text/css" rel="stylesheet" href="./resources/screens/9e907936-99d3-47a3-aace-e4b8f5d58fd8-1636052951799-ie.css" /><![endif]-->\
+      <!--[if lte IE 8]><link type="text/css" rel="stylesheet" href="./resources/screens/9e907936-99d3-47a3-aace-e4b8f5d58fd8-1636052951799-ie8.css" /><![endif]-->\
       <div class="freeLayout">\
-      <div id="s-Group_1" class="group firer ie-background commentable non-processed" customid="Group_1" datasizewidth="1024.0px" datasizeheight="615.0px" >\
-        <div id="s-Rectangle_3" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_3"   datasizewidth="300.0px" datasizeheight="257.0px" datasizewidthpx="300.0" datasizeheightpx="257.0" dataX="812.0" dataY="1056.0" >\
-          <div class="backgroundLayer">\
-            <div class="colorLayer"></div>\
-            <div class="imageLayer"></div>\
-          </div>\
-          <div class="borderLayer">\
-            <div class="paddingLayer">\
-              <div class="content">\
-                <div class="valign">\
-                  <span id="rtr-s-Rectangle_3_0"></span>\
-                </div>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-        <div id="s-Rectangle_8" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_8"   datasizewidth="300.0px" datasizeheight="257.0px" datasizewidthpx="300.0" datasizeheightpx="257.0" dataX="168.0" dataY="1056.0" >\
-          <div class="backgroundLayer">\
-            <div class="colorLayer"></div>\
-            <div class="imageLayer"></div>\
-          </div>\
-          <div class="borderLayer">\
-            <div class="paddingLayer">\
-              <div class="content">\
-                <div class="valign">\
-                  <span id="rtr-s-Rectangle_8_0"></span>\
-                </div>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-        <div id="s-Rectangle_9" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_9"   datasizewidth="300.0px" datasizeheight="257.0px" datasizewidthpx="300.0" datasizeheightpx="257.0" dataX="168.0" dataY="1056.0" >\
-          <div class="backgroundLayer">\
-            <div class="colorLayer"></div>\
-            <div class="imageLayer"></div>\
-          </div>\
-          <div class="borderLayer">\
-            <div class="paddingLayer">\
-              <div class="content">\
-                <div class="valign">\
-                  <span id="rtr-s-Rectangle_9_0"></span>\
-                </div>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-\
-\
       <div id="s-Group_2" class="group firer ie-background commentable non-processed" customid="Group_1" datasizewidth="1024.0px" datasizeheight="615.0px" >\
-        <div id="s-Rectangle_11" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_3"   datasizewidth="300.0px" datasizeheight="257.0px" datasizewidthpx="300.0" datasizeheightpx="257.0" dataX="812.0" dataY="599.0" >\
+        <div id="s-Rectangle_11" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_3"   datasizewidth="366.3px" datasizeheight="361.2px" datasizewidthpx="366.2509656914367" datasizeheightpx="361.16004715722534" dataX="850.0" dataY="558.0" >\
           <div class="backgroundLayer">\
             <div class="colorLayer"></div>\
             <div class="imageLayer"></div>\
@@ -84,7 +35,7 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
             </div>\
           </div>\
         </div>\
-        <div id="s-Rectangle_16" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_8"   datasizewidth="300.0px" datasizeheight="257.0px" datasizewidthpx="300.0" datasizeheightpx="256.99999999999994" dataX="168.0" dataY="599.0" >\
+        <div id="s-Rectangle_16" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_8"   datasizewidth="366.3px" datasizeheight="361.2px" datasizewidthpx="366.25096569143636" datasizeheightpx="361.16004715722534" dataX="64.0" dataY="558.0" >\
           <div class="backgroundLayer">\
             <div class="colorLayer"></div>\
             <div class="imageLayer"></div>\
@@ -99,7 +50,7 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
             </div>\
           </div>\
         </div>\
-        <div id="s-Rectangle_17" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_9"   datasizewidth="300.0px" datasizeheight="257.0px" datasizewidthpx="300.0" datasizeheightpx="257.0" dataX="168.0" dataY="599.0" >\
+        <div id="s-Rectangle_17" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_9"   datasizewidth="366.3px" datasizeheight="361.2px" datasizewidthpx="366.25096569143636" datasizeheightpx="361.16004715722534" dataX="64.0" dataY="558.0" >\
           <div class="backgroundLayer">\
             <div class="colorLayer"></div>\
             <div class="imageLayer"></div>\
@@ -109,55 +60,6 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
               <div class="content">\
                 <div class="valign">\
                   <span id="rtr-s-Rectangle_17_0"></span>\
-                </div>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-\
-\
-      <div id="s-Group_3" class="group firer ie-background commentable non-processed" customid="Group_1" datasizewidth="1024.0px" datasizeheight="615.0px" >\
-        <div id="s-Rectangle_4" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_3"   datasizewidth="300.0px" datasizeheight="257.0px" datasizewidthpx="300.0" datasizeheightpx="257.0" dataX="812.0" dataY="1514.0" >\
-          <div class="backgroundLayer">\
-            <div class="colorLayer"></div>\
-            <div class="imageLayer"></div>\
-          </div>\
-          <div class="borderLayer">\
-            <div class="paddingLayer">\
-              <div class="content">\
-                <div class="valign">\
-                  <span id="rtr-s-Rectangle_4_0"></span>\
-                </div>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-        <div id="s-Rectangle_10" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_8"   datasizewidth="300.0px" datasizeheight="257.0px" datasizewidthpx="300.0" datasizeheightpx="257.0" dataX="168.0" dataY="1514.0" >\
-          <div class="backgroundLayer">\
-            <div class="colorLayer"></div>\
-            <div class="imageLayer"></div>\
-          </div>\
-          <div class="borderLayer">\
-            <div class="paddingLayer">\
-              <div class="content">\
-                <div class="valign">\
-                  <span id="rtr-s-Rectangle_10_0"></span>\
-                </div>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-        <div id="s-Rectangle_12" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_9"   datasizewidth="300.0px" datasizeheight="257.0px" datasizewidthpx="300.0" datasizeheightpx="257.0" dataX="168.0" dataY="1514.0" >\
-          <div class="backgroundLayer">\
-            <div class="colorLayer"></div>\
-            <div class="imageLayer"></div>\
-          </div>\
-          <div class="borderLayer">\
-            <div class="paddingLayer">\
-              <div class="content">\
-                <div class="valign">\
-                  <span id="rtr-s-Rectangle_12_0"></span>\
                 </div>\
               </div>\
             </div>\
@@ -201,7 +103,7 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
           </div>\
         </div>\
       </div>\
-      <div id="s-Paragraph_6" class="pie richtext manualfit firer ie-background commentable non-processed" customid="PORTFOLIO"   datasizewidth="485.0px" datasizeheight="90.0px" dataX="95.5" dataY="400.0" >\
+      <div id="s-Paragraph_6" class="pie richtext manualfit firer ie-background commentable non-processed" customid="PORTFOLIO VISUAL"   datasizewidth="485.0px" datasizeheight="90.0px" dataX="95.5" dataY="400.0" >\
         <div class="backgroundLayer">\
           <div class="colorLayer"></div>\
           <div class="imageLayer"></div>\
@@ -210,194 +112,14 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
           <div class="paddingLayer">\
             <div class="content">\
               <div class="valign">\
-                <span id="rtr-s-Paragraph_6_0">PORTFOLIO</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_4" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="361.0px" datasizeheight="50.0px" dataX="157.5" dataY="865.0" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_4_0">Lorem ipsum dolor sit amet</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_7" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="271.0px" datasizeheight="31.0px" dataX="202.5" dataY="907.9" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_7_0">Lorem ipsum</span><span id="rtr-s-Paragraph_7_1"> dolor sit amet</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_8" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="361.0px" datasizeheight="50.0px" dataX="796.5" dataY="865.0" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_8_0">Lorem ipsum dolor sit amet</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_9" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="271.0px" datasizeheight="31.0px" dataX="841.5" dataY="907.9" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_9_0">Lorem ipsum</span><span id="rtr-s-Paragraph_9_1"> dolor sit amet</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_10" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="361.0px" datasizeheight="50.0px" dataX="143.0" dataY="1328.0" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_10_0">Lorem ipsum dolor sit amet</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_11" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="271.0px" datasizeheight="31.0px" dataX="188.0" dataY="1371.0" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_11_0">Lorem ipsum</span><span id="rtr-s-Paragraph_11_1"> dolor sit amet</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_12" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="361.0px" datasizeheight="50.0px" dataX="796.5" dataY="1328.0" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_12_0">Lorem ipsum dolor sit amet</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_13" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="271.0px" datasizeheight="31.0px" dataX="841.5" dataY="1370.8" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_13_0">Lorem ipsum</span><span id="rtr-s-Paragraph_13_1"> dolor sit amet</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_14" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="361.0px" datasizeheight="50.0px" dataX="157.5" dataY="1790.0" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_14_0">Lorem ipsum dolor sit amet</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_15" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="271.0px" datasizeheight="31.0px" dataX="202.5" dataY="1833.0" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_15_0">Lorem ipsum</span><span id="rtr-s-Paragraph_15_1"> dolor sit amet</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_16" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="361.0px" datasizeheight="50.0px" dataX="785.0" dataY="1790.0" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_16_0">Lorem ipsum dolor sit amet</span>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      <div id="s-Paragraph_17" class="pie richtext manualfit firer ie-background commentable non-processed" customid="Lorem ipsum dolor sit ame"   datasizewidth="271.0px" datasizeheight="31.0px" dataX="831.0" dataY="1833.0" >\
-        <div class="backgroundLayer">\
-          <div class="colorLayer"></div>\
-          <div class="imageLayer"></div>\
-        </div>\
-        <div class="borderLayer">\
-          <div class="paddingLayer">\
-            <div class="content">\
-              <div class="valign">\
-                <span id="rtr-s-Paragraph_17_0">Lorem ipsum</span><span id="rtr-s-Paragraph_17_1"> dolor sit amet</span>\
+                <span id="rtr-s-Paragraph_6_0">PORTFOLIO VISUAL</span>\
               </div>\
             </div>\
           </div>\
         </div>\
       </div>\
 \
-      <div id="s-Image_1" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="257.5px" datasizeheight="218.0px" dataX="188.0" dataY="618.5"   alt="image">\
+      <div id="s-Image_1" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="314.4px" datasizeheight="306.4px" dataX="88.7" dataY="586.0"   alt="image">\
         <div class="borderLayer">\
         	<div class="imageViewport">\
         		<img src="resources/jim/images/common/cross.svg" />\
@@ -406,34 +128,7 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
       </div>\
 \
 \
-      <div id="s-Image_3" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="257.5px" datasizeheight="218.0px" dataX="836.8" dataY="618.5"   alt="image">\
-        <div class="borderLayer">\
-        	<div class="imageViewport">\
-        		<img src="resources/jim/images/common/cross.svg" />\
-        	</div>\
-        </div>\
-      </div>\
-\
-\
-      <div id="s-Image_4" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="257.5px" datasizeheight="218.0px" dataX="188.0" dataY="1075.5"   alt="image">\
-        <div class="borderLayer">\
-        	<div class="imageViewport">\
-        		<img src="resources/jim/images/common/cross.svg" />\
-        	</div>\
-        </div>\
-      </div>\
-\
-\
-      <div id="s-Image_5" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="257.5px" datasizeheight="218.0px" dataX="836.8" dataY="1075.5"   alt="image">\
-        <div class="borderLayer">\
-        	<div class="imageViewport">\
-        		<img src="resources/jim/images/common/cross.svg" />\
-        	</div>\
-        </div>\
-      </div>\
-\
-\
-      <div id="s-Image_6" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="257.5px" datasizeheight="218.0px" dataX="188.0" dataY="1533.5"   alt="image">\
+      <div id="s-Image_3" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="314.4px" datasizeheight="306.4px" dataX="880.7" dataY="586.0"   alt="image">\
         <div class="borderLayer">\
         	<div class="imageViewport">\
         		<img src="resources/jim/images/common/cross.svg" />\
@@ -598,15 +293,6 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
           	</svg>\
 \
           </div>\
-        </div>\
-      </div>\
-\
-\
-      <div id="s-Image_11" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="257.5px" datasizeheight="218.0px" dataX="831.0" dataY="1533.5"   alt="image">\
-        <div class="borderLayer">\
-        	<div class="imageViewport">\
-        		<img src="resources/jim/images/common/cross.svg" />\
-        	</div>\
         </div>\
       </div>\
 \
@@ -921,7 +607,7 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
       </div>\
 \
 \
-      <div id="s-Image_25" class="pie image firer click ie-background commentable non-processed" customid="Image_24"   datasizewidth="238.0px" datasizeheight="239.0px" dataX="568.0" dataY="47.0"   alt="image">\
+      <div id="s-Image_25" class="pie image firer click ie-background commentable non-processed" customid="Image_24"   datasizewidth="238.0px" datasizeheight="239.0px" dataX="521.0" dataY="20.0"   alt="image">\
         <div class="borderLayer">\
         	<div class="imageViewport">\
         		<img src="./images/520cbaef-9203-43a8-ad8e-3a03bad5ea6e.png" />\
@@ -929,6 +615,155 @@ var content='<div class="ui-page" deviceName="web" deviceType="desktop" deviceWi
         </div>\
       </div>\
 \
+\
+      <div id="s-Group_3" class="group firer ie-background commentable non-processed" customid="Group_1" datasizewidth="1024.0px" datasizeheight="615.0px" >\
+        <div id="s-Rectangle_12" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_3"   datasizewidth="366.3px" datasizeheight="361.2px" datasizewidthpx="366.2509656914367" datasizeheightpx="361.16004715722534" dataX="850.0" dataY="999.0" >\
+          <div class="backgroundLayer">\
+            <div class="colorLayer"></div>\
+            <div class="imageLayer"></div>\
+          </div>\
+          <div class="borderLayer">\
+            <div class="paddingLayer">\
+              <div class="content">\
+                <div class="valign">\
+                  <span id="rtr-s-Rectangle_12_0"></span>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+        <div id="s-Rectangle_18" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_8"   datasizewidth="366.3px" datasizeheight="361.2px" datasizewidthpx="366.25096569143636" datasizeheightpx="361.16004715722534" dataX="64.0" dataY="999.0" >\
+          <div class="backgroundLayer">\
+            <div class="colorLayer"></div>\
+            <div class="imageLayer"></div>\
+          </div>\
+          <div class="borderLayer">\
+            <div class="paddingLayer">\
+              <div class="content">\
+                <div class="valign">\
+                  <span id="rtr-s-Rectangle_18_0"></span>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+        <div id="s-Rectangle_19" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_9"   datasizewidth="366.3px" datasizeheight="361.2px" datasizewidthpx="366.25096569143636" datasizeheightpx="361.16004715722534" dataX="64.0" dataY="999.0" >\
+          <div class="backgroundLayer">\
+            <div class="colorLayer"></div>\
+            <div class="imageLayer"></div>\
+          </div>\
+          <div class="borderLayer">\
+            <div class="paddingLayer">\
+              <div class="content">\
+                <div class="valign">\
+                  <span id="rtr-s-Rectangle_19_0"></span>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
+\
+\
+      <div id="s-Image_4" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="314.4px" datasizeheight="306.4px" dataX="88.7" dataY="1027.0"   alt="image">\
+        <div class="borderLayer">\
+        	<div class="imageViewport">\
+        		<img src="resources/jim/images/common/cross.svg" />\
+        	</div>\
+        </div>\
+      </div>\
+\
+\
+      <div id="s-Image_5" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="314.4px" datasizeheight="306.4px" dataX="880.7" dataY="1027.0"   alt="image">\
+        <div class="borderLayer">\
+        	<div class="imageViewport">\
+        		<img src="resources/jim/images/common/cross.svg" />\
+        	</div>\
+        </div>\
+      </div>\
+\
+\
+      <div id="s-Group_5" class="group firer ie-background commentable non-processed" customid="Group_1" datasizewidth="1024.0px" datasizeheight="615.0px" >\
+        <div id="s-Rectangle_14" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_3"   datasizewidth="366.3px" datasizeheight="361.2px" datasizewidthpx="366.2509656914367" datasizeheightpx="361.16004715722534" dataX="850.0" dataY="1466.0" >\
+          <div class="backgroundLayer">\
+            <div class="colorLayer"></div>\
+            <div class="imageLayer"></div>\
+          </div>\
+          <div class="borderLayer">\
+            <div class="paddingLayer">\
+              <div class="content">\
+                <div class="valign">\
+                  <span id="rtr-s-Rectangle_14_0"></span>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+        <div id="s-Rectangle_20" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_8"   datasizewidth="366.3px" datasizeheight="361.2px" datasizewidthpx="366.25096569143636" datasizeheightpx="361.16004715722534" dataX="64.0" dataY="1466.0" >\
+          <div class="backgroundLayer">\
+            <div class="colorLayer"></div>\
+            <div class="imageLayer"></div>\
+          </div>\
+          <div class="borderLayer">\
+            <div class="paddingLayer">\
+              <div class="content">\
+                <div class="valign">\
+                  <span id="rtr-s-Rectangle_20_0"></span>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+        <div id="s-Rectangle_21" class="pie rectangle manualfit firer commentable non-processed" customid="Rectangle_9"   datasizewidth="366.3px" datasizeheight="361.2px" datasizewidthpx="366.25096569143636" datasizeheightpx="361.16004715722534" dataX="64.0" dataY="1466.0" >\
+          <div class="backgroundLayer">\
+            <div class="colorLayer"></div>\
+            <div class="imageLayer"></div>\
+          </div>\
+          <div class="borderLayer">\
+            <div class="paddingLayer">\
+              <div class="content">\
+                <div class="valign">\
+                  <span id="rtr-s-Rectangle_21_0"></span>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
+\
+\
+      <div id="s-Image_6" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="314.4px" datasizeheight="306.4px" dataX="89.0" dataY="1494.0"   alt="image">\
+        <div class="borderLayer">\
+        	<div class="imageViewport">\
+        		<img src="resources/jim/images/common/cross.svg" />\
+        	</div>\
+        </div>\
+      </div>\
+\
+\
+      <div id="s-Image_7" class="pie image firer ie-background commentable non-processed" customid="Image_1"   datasizewidth="314.4px" datasizeheight="306.4px" dataX="881.0" dataY="1494.0"   alt="image">\
+        <div class="borderLayer">\
+        	<div class="imageViewport">\
+        		<img src="resources/jim/images/common/cross.svg" />\
+        	</div>\
+        </div>\
+      </div>\
+\
+      <div id="s-Text_6" class="pie richtext manualfit firer mousedown mouseup click ie-background commentable non-processed" customid="PORTFOLIO INFO"   datasizewidth="125.0px" datasizeheight="70.0px" dataX="880.7" dataY="330.0" >\
+        <div class="backgroundLayer">\
+          <div class="colorLayer"></div>\
+          <div class="imageLayer"></div>\
+        </div>\
+        <div class="borderLayer">\
+          <div class="paddingLayer">\
+            <div class="content">\
+              <div class="valign">\
+                <span id="rtr-s-Text_6_0">PORTFOLIO INFO</span>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
       </div>\
 \
       </div>\

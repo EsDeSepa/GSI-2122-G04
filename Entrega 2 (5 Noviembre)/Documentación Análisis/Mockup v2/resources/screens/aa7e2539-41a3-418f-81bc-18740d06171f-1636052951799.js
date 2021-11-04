@@ -1,11 +1,11 @@
 jQuery("#simulation")
-  .on("click", ".s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 .click", function(event, data) {
+  .on("click", ".s-aa7e2539-41a3-418f-81bc-18740d06171f .click", function(event, data) {
     var jEvent, jFirer, cases;
     if(jimUtil.isAlternateModeActive()) return;
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
     jFirer = jEvent.getEventFirer();
-    if(jFirer.is("#s-Image_8")) {
+    if(jFirer.is("#s-Image_1")) {
       cases = [
         {
           "blocks": [
@@ -28,7 +28,7 @@ jQuery("#simulation")
       ];
       event.data = data;
       jEvent.launchCases(cases);
-    } else if(jFirer.is("#s-Paragraph_18")) {
+    } else if(jFirer.is("#s-Paragraph_14")) {
       cases = [
         {
           "blocks": [
@@ -37,7 +37,7 @@ jQuery("#simulation")
                 {
                   "action": "jimNavigation",
                   "parameter": {
-                    "target": "screens/9e907936-99d3-47a3-aace-e4b8f5d58fd8"
+                    "target": "screens/aa7e2539-41a3-418f-81bc-18740d06171f"
                   },
                   "exectype": "serial",
                   "delay": 0
@@ -193,9 +193,36 @@ jQuery("#simulation")
       ];
       event.data = data;
       jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Text_6")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/e451408d-ccbc-4a45-892d-07da50b96b4f",
+                    "transition": {
+                      "type": "fade",
+                      "duration": 500
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
     }
   })
-  .on("mouseup", ".s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 .mouseup", function(event, data) {
+  .on("mouseup", ".s-aa7e2539-41a3-418f-81bc-18740d06171f .mouseup", function(event, data) {
     var jEvent, jFirer, cases;
     if(jimUtil.isAlternateModeActive()) return;
     if(data === undefined) { data = event; }
@@ -210,18 +237,18 @@ jQuery("#simulation")
                 {
                   "action": "jimChangeStyle",
                   "parameter": [ {
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_1 > .backgroundLayer > .colorLayer" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_1 > .backgroundLayer > .colorLayer" ],
                     "attributes": {
                       "background-color": "transparent"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_1 .valign" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_1 .valign" ],
                     "attributes": {
                       "vertical-align": "middle",
                       "text-align": "center"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_1 span" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_1 span" ],
                     "attributes": {
                       "color": "#FFFFFF",
                       "text-align": "center",
@@ -251,18 +278,18 @@ jQuery("#simulation")
                 {
                   "action": "jimChangeStyle",
                   "parameter": [ {
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_2 > .backgroundLayer > .colorLayer" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_2 > .backgroundLayer > .colorLayer" ],
                     "attributes": {
                       "background-color": "transparent"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_2 .valign" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_2 .valign" ],
                     "attributes": {
                       "vertical-align": "middle",
                       "text-align": "center"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_2 span" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_2 span" ],
                     "attributes": {
                       "color": "#FFFFFF",
                       "text-align": "center",
@@ -292,18 +319,18 @@ jQuery("#simulation")
                 {
                   "action": "jimChangeStyle",
                   "parameter": [ {
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_3 > .backgroundLayer > .colorLayer" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_3 > .backgroundLayer > .colorLayer" ],
                     "attributes": {
                       "background-color": "transparent"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_3 .valign" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_3 .valign" ],
                     "attributes": {
                       "vertical-align": "middle",
                       "text-align": "center"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_3 span" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_3 span" ],
                     "attributes": {
                       "color": "#FFFFFF",
                       "text-align": "center",
@@ -333,18 +360,18 @@ jQuery("#simulation")
                 {
                   "action": "jimChangeStyle",
                   "parameter": [ {
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_4 > .backgroundLayer > .colorLayer" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_4 > .backgroundLayer > .colorLayer" ],
                     "attributes": {
                       "background-color": "transparent"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_4 .valign" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_4 .valign" ],
                     "attributes": {
                       "vertical-align": "middle",
                       "text-align": "center"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_4 span" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_4 span" ],
                     "attributes": {
                       "color": "#FFFFFF",
                       "text-align": "center",
@@ -374,18 +401,59 @@ jQuery("#simulation")
                 {
                   "action": "jimChangeStyle",
                   "parameter": [ {
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_5 > .backgroundLayer > .colorLayer" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_5 > .backgroundLayer > .colorLayer" ],
                     "attributes": {
                       "background-color": "transparent"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_5 .valign" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_5 .valign" ],
                     "attributes": {
                       "vertical-align": "middle",
                       "text-align": "center"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_5 span" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_5 span" ],
+                    "attributes": {
+                      "color": "#FFFFFF",
+                      "text-align": "center",
+                      "text-decoration": "none",
+                      "font-family": "'OpenSans-Light',Arial",
+                      "font-size": "10.0pt"
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Text_6")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_6 > .backgroundLayer > .colorLayer" ],
+                    "attributes": {
+                      "background-color": "transparent"
+                    }
+                  },{
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_6 .valign" ],
+                    "attributes": {
+                      "vertical-align": "middle",
+                      "text-align": "center"
+                    }
+                  },{
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_6 span" ],
                     "attributes": {
                       "color": "#FFFFFF",
                       "text-align": "center",
@@ -408,7 +476,7 @@ jQuery("#simulation")
       jEvent.launchCases(cases);
     }
   })
-  .on("mousedown", ".s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 .mousedown", function(event, data) {
+  .on("mousedown", ".s-aa7e2539-41a3-418f-81bc-18740d06171f .mousedown", function(event, data) {
     var jEvent, jFirer, cases;
     if(jimUtil.isAlternateModeActive()) return;
     if(data === undefined) { data = event; }
@@ -423,12 +491,12 @@ jQuery("#simulation")
                 {
                   "action": "jimChangeStyle",
                   "parameter": [ {
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_1 > .backgroundLayer > .colorLayer" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_1 > .backgroundLayer > .colorLayer" ],
                     "attributes": {
                       "background-color": "#DDDDDD"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_1 span" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_1 span" ],
                     "attributes": {
                       "color": "#282828"
                     }
@@ -454,12 +522,12 @@ jQuery("#simulation")
                 {
                   "action": "jimChangeStyle",
                   "parameter": [ {
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_2 > .backgroundLayer > .colorLayer" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_2 > .backgroundLayer > .colorLayer" ],
                     "attributes": {
                       "background-color": "#DDDDDD"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_2 span" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_2 span" ],
                     "attributes": {
                       "color": "#282828"
                     }
@@ -485,12 +553,12 @@ jQuery("#simulation")
                 {
                   "action": "jimChangeStyle",
                   "parameter": [ {
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_3 > .backgroundLayer > .colorLayer" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_3 > .backgroundLayer > .colorLayer" ],
                     "attributes": {
                       "background-color": "#DDDDDD"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_3 span" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_3 span" ],
                     "attributes": {
                       "color": "#282828"
                     }
@@ -516,12 +584,12 @@ jQuery("#simulation")
                 {
                   "action": "jimChangeStyle",
                   "parameter": [ {
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_4 > .backgroundLayer > .colorLayer" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_4 > .backgroundLayer > .colorLayer" ],
                     "attributes": {
                       "background-color": "#DDDDDD"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_4 span" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_4 span" ],
                     "attributes": {
                       "color": "#282828"
                     }
@@ -547,12 +615,43 @@ jQuery("#simulation")
                 {
                   "action": "jimChangeStyle",
                   "parameter": [ {
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_5 > .backgroundLayer > .colorLayer" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_5 > .backgroundLayer > .colorLayer" ],
                     "attributes": {
                       "background-color": "#DDDDDD"
                     }
                   },{
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Text_5 span" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_5 span" ],
+                    "attributes": {
+                      "color": "#282828"
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Text_6")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_6 > .backgroundLayer > .colorLayer" ],
+                    "attributes": {
+                      "background-color": "#DDDDDD"
+                    }
+                  },{
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Text_6 span" ],
                     "attributes": {
                       "color": "#282828"
                     }
@@ -571,13 +670,13 @@ jQuery("#simulation")
       jEvent.launchCases(cases);
     }
   })
-  .on("mouseenter dragenter", ".s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 .mouseenter", function(event, data) {
+  .on("mouseenter dragenter", ".s-aa7e2539-41a3-418f-81bc-18740d06171f .mouseenter", function(event, data) {
     var jEvent, jFirer, cases;
     if(jimUtil.isAlternateModeActive()) return;
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
     jFirer = jEvent.getDirectEventFirer(this);
-    if(jFirer.is("#s-Paragraph_18") && jFirer.has(event.relatedTarget).length === 0) {
+    if(jFirer.is("#s-Paragraph_14") && jFirer.has(event.relatedTarget).length === 0) {
       event.backupState = true;
       event.target = jFirer;
       cases = [
@@ -588,7 +687,7 @@ jQuery("#simulation")
                 {
                   "action": "jimChangeStyle",
                   "parameter": [ {
-                    "target": [ "#s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 #s-Paragraph_18 span" ],
+                    "target": [ "#s-aa7e2539-41a3-418f-81bc-18740d06171f #s-Paragraph_14 span" ],
                     "attributes": {
                       "text-decoration": "underline"
                     }
@@ -606,13 +705,13 @@ jQuery("#simulation")
       jEvent.launchCases(cases);
     }
   })
-  .on("mouseleave dragleave", ".s-9e907936-99d3-47a3-aace-e4b8f5d58fd8 .mouseleave", function(event, data) {
+  .on("mouseleave dragleave", ".s-aa7e2539-41a3-418f-81bc-18740d06171f .mouseleave", function(event, data) {
     var jEvent, jFirer, cases;
     if(jimUtil.isAlternateModeActive()) return;
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
     jFirer = jEvent.getDirectEventFirer(this);
-    if(jFirer.is("#s-Paragraph_18")) {
+    if(jFirer.is("#s-Paragraph_14")) {
       jEvent.undoCases(jFirer);
     }
   });
