@@ -42,7 +42,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Este documento presenta la elicitación de requisitos para un proyecto de visibilidad de la asignatura Gestión de Sistemas de Información, del Grado en Tecnologías Informáticas de la Universidad de Sevilla. El proyecto se centra en la construcción de un sitio web para dar mayor visibilidad a la asignatura y a los contenidos relacionados con la misma</rem:text>
+<rem:text>Este documento presenta la elicitación de requisitos para un proyecto de visibilidad de la asignatura Gestión de Sistemas de Información, del tercer curso del Grado en Tecnologías Informáticas de la Universidad de Sevilla. El proyecto se centra en la construcción de un sistema de información para una empresa y en adaptar las diversas herramientas que aprendemos a utilizar en la asignatura para proporcionar una solución lo más adecuada posible a la empresa</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0002">
@@ -56,7 +56,7 @@
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders="STK-0005 STK-0004 STK-0001 "/>
+<rem:authors stakeholders="STK-0004 STK-0005 STK-0001 "/>
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>2 </rem:number>
@@ -87,7 +87,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:address>Carlos de Cepeda, 2</rem:address>
+<rem:address>C/Carlos de Cepeda, 2, 41005 Sevilla</rem:address>
 <rem:telephone>954633079</rem:telephone>
 <rem:fax><rem:tbd/></rem:fax>
 </rem:organization>
@@ -104,7 +104,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:address>Campus de Reina Mercedes US, Avda de la Reina Mercedes</rem:address>
+<rem:address>Escuela Técnica Superior de Ingeniería Informática, Universidad de Sevilla, 41012 Sevilla</rem:address>
 <rem:telephone>955420835</rem:telephone>
 <rem:fax><rem:tbd/></rem:fax>
 </rem:organization>
@@ -249,7 +249,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>El sistema actual del proyecto es la creación de una aplicación web mediante Wordpress siendo 100% fieles a los requisitos recogidos en las reuniones con el cliente</rem:text>
+<rem:text>El sistema actual del proyecto es la creación de una aplicación web mediante Wordpress siendo 100% fieles a los requisitos recogidos en las reuniones con el cliente y actualizándolos de acuerdo a posteriores reuniones con este</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0006">
@@ -263,7 +263,7 @@
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders="STK-0004 STK-0003 "/>
+<rem:authors stakeholders="STK-0003 STK-0004 "/>
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>4 </rem:number>
@@ -356,11 +356,11 @@
 <rem:name>Página Principal</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
+<rem:minor>1</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
@@ -383,26 +383,26 @@
 </rem:maximumOcurrences>
 <rem:specificData oid = "DAT-0001">
 <rem:description>Slider de Aplicaciones</rem:description>
-<rem:comments>Ninguno</rem:comments>
+<rem:comments>Muestra algunas de las aplicaciones y software desarrollados</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0002">
 <rem:description>Pie de Página</rem:description>
-<rem:comments>Posee un pequeño resumen, el tipo de software que lo desarrolla, nombre y  ubicación de la empresa</rem:comments>
+<rem:comments>Posee el nombre de la empresa, el correo de contacto y el teléfono de contacto</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0003">
 <rem:description>Cabecera</rem:description>
-<rem:comments>Posee logo, banner, correo y formulario de contacto</rem:comments>
+<rem:comments>Posee el logo de la empresa en un banner</rem:comments>
 </rem:specificData>
 </rem:informationRequirement>
 <rem:informationRequirement oid="IRQ-0002">
 <rem:name>Menús</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
+<rem:minor>1</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
@@ -423,28 +423,32 @@
 <rem:maximumOcurrences>
 <rem:tbd/>
 </rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0008">
+<rem:description>¿Quiénes somos?</rem:description>
+<rem:comments>Recoge una descripción de la empresa</rem:comments>
+</rem:specificData>
 <rem:specificData oid = "DAT-0004">
 <rem:description>Contacto</rem:description>
 <rem:comments>Posee información de contacto y su formulario correspondiente. También tiene un pequeño mapa de Google Maps</rem:comments>
 </rem:specificData>
-<rem:specificData oid = "DAT-0005">
-<rem:description>Costos y Tiempo</rem:description>
-<rem:comments>Es un formulario de estimación de costos y tiempos</rem:comments>
-</rem:specificData>
 <rem:specificData oid = "DAT-0006">
 <rem:description>Portfolio</rem:description>
-<rem:comments>Recoge las aplicaciones y el software desarrollado y el estado en el que se encuentran los mismos</rem:comments>
+<rem:comments>Recoge las aplicaciones y el software desarrollados</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0005">
+<rem:description>Presupuesto</rem:description>
+<rem:comments>Es un formulario de estimación de costos y tiempos</rem:comments>
 </rem:specificData>
 </rem:informationRequirement>
 <rem:informationRequirement oid="IRQ-0003">
 <rem:name>Servicios</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
+<rem:minor>1</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
@@ -452,7 +456,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:relevantConcept>los servicios prestados por la empresa, sobre todo el tema de las aplicaciones en desarrollo</rem:relevantConcept>
+<rem:relevantConcept>los servicios prestados por la empresa y las aplicaciones y el software que desarolla</rem:relevantConcept>
 <rem:averageLifeTime>
 <rem:tbd/>
 </rem:averageLifeTime>
@@ -505,11 +509,11 @@
 <rem:name>Páginas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
+<rem:minor>1</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
@@ -517,7 +521,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>usar el mismo esquema de colores, (2 o 3 como muchos) y  no contiene párrafos con mucho texto explicativo, entre otros aspectos</rem:description>
+<rem:description>usar el mismo esquema de colores, (2 o 3 como muchos) y no contiene párrafos con mucho demasiado texto, entre otros aspectos</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement oid="FRQ-0002">
 <rem:name>Menús</rem:name>
@@ -611,11 +615,11 @@
 <rem:name>Contacto</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
+<rem:minor>1</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
@@ -623,17 +627,17 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>:<br/>- Enviar un correo electrónico con los campos rellenos en el formulario<br/>- Al ser clickeado el mapa, te redirige a Google Maps con la ubicación de la empresa</rem:description>
+<rem:description>:<br/>- Enviar un correo electrónico con los campos rellenos en el formulario<br/>- Al ser clickado el mapa, te redirige a Google Maps con la ubicación de la empresa</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement oid="FRQ-0006">
 <rem:name>Portfolio</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
+<rem:minor>1</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
@@ -641,7 +645,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>clickar en cada aplicación para que te lleva a su respectiva página o entrada</rem:description>
+<rem:description>permitir clickar en cada aplicación para que te lleva a su respectiva página o entrada con información sobre esta</rem:description>
 </rem:functionalRequirement>
 </rem:section>
 </rem:section>
@@ -664,11 +668,11 @@
 <rem:name>Páginas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
+<rem:minor>1</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
@@ -676,17 +680,17 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>:<br/>- es accesible con rápidez y sin problemas de conexión por parte del servidor<br/>- buscar en el cliente que tenga una experiencia fluida con pocas animaciones pero elegantes y que sea visualmente agradable<br/>- mostrar una buena imagen por parte de la empresa</rem:description>
+<rem:description>:<br/>- ser accesible con rápidez y sin problemas de conexión por parte del servidor<br/>- buscar en el cliente que tenga una experiencia fluida con pocas animaciones pero elegantes y que sea visualmente agradable<br/>- mostrar una buena imagen por parte de la empresa</rem:description>
 </rem:nonFunctionalRequirement>
 <rem:nonFunctionalRequirement oid="NFR-0002">
 <rem:name>Aplicaciones</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
+<rem:minor>1</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
@@ -694,7 +698,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>colocar las aplicaciones en estado mas temprano de desarollo y las peor valoradas, al final del listado de las mismas</rem:description>
+<rem:description>colocar las aplicaciones en orden de mayor a menor valoración</rem:description>
 </rem:nonFunctionalRequirement>
 <rem:nonFunctionalRequirement oid="NFR-0003">
 <rem:name>Seguridad</rem:name>
@@ -731,25 +735,6 @@
 <rem:level>2</rem:level>
 <rem:number>5.4 </rem:number>
 <rem:constraintRequirement
- oid="CRQ-0001">
-<rem:name>Portfolio</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>Si tiene una entrada que es borrada, seguirá siendo accesible solo para administradores</rem:description>
-</rem:constraintRequirement>
-<rem:constraintRequirement
  oid="CRQ-0002">
 <rem:name>Valoraciones de Clientes</rem:name>
 <rem:version>
@@ -785,7 +770,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>Si no tiene una valoración, los administradores deberan de asignarle una por defecto</rem:description>
+<rem:description>Si no tiene una valoración, los administradores deberán de asignarle una por defecto</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid="CRQ-0004">
@@ -849,8 +834,8 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType oid="PVT-0002">
-<rem:name>Real</rem:name>
+<rem:predefinedValueType oid="PVT-0003">
+<rem:name>Integer</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -861,7 +846,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Real numbers</rem:description>
+<rem:description>Integer numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0005">
@@ -879,8 +864,8 @@
 <rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0003">
-<rem:name>Integer</rem:name>
+<rem:predefinedValueType oid="PVT-0006">
+<rem:name>Date</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -890,23 +875,8 @@
 <rem:day>30</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Integer numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0001">
-<rem:name>Enum Literal</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-</rem:version>
 <rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Enumeration literals</rem:description>
+<rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0004">
@@ -924,21 +894,6 @@
 <rem:description>Natural numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0006">
-<rem:name>Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Dates</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0007">
 <rem:name>Time</rem:name>
 <rem:version>
@@ -954,74 +909,80 @@
 <rem:description>Hour:minutes:seconds</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0002">
+<rem:name>Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Real numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Enum Literal</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Enumeration literals</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
-</rem:conflictStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
+</rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>eliminado</rem:name>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
 <rem:name>Otro</rem:name>
 <rem:description>
@@ -1034,28 +995,10 @@
 <![CDATA[Por Determinar]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
@@ -1064,10 +1007,10 @@
 <![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0004">
@@ -1076,16 +1019,16 @@
 <![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0012">
@@ -1094,10 +1037,46 @@
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
 <rem:name>Prioridad no establecida</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
@@ -1106,14 +1085,20 @@
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
-</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
@@ -1121,44 +1106,62 @@
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0001">
-<rem:name>PD</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0001">
+<rem:name>PD</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
-</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
 <rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
@@ -1166,38 +1169,20 @@
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0001">
+<rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
+</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
