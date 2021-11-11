@@ -1,0 +1,39 @@
+Tipos de documentos:
+
+- Facturacion estimada
+Tipo/aspecto de contrato y presupuesto
+
+- Facturas (se le envian al cliente despues de terminar el prototipo y se mandan junto con este)
+Atributos:	- CIF/NIF cliente
+	- direccion (facturacion) cliente
+	- fecha
+	- precio total
+	- tiempo invertido
+
+- Prototipo (documento detallando la funcionalidad del prodcuto y todas sus caracteristicas)
+Atributos:	- numero factura
+	- caracteristicas del producto
+	- jefe de proyecto
+
+- Contrato (se pacta con el cliente para empezar a desarrollar un producto/prototipo)
+Atributos:	- numero contrato
+	- fecha
+	- CIF/NIF cliente
+	- contacto cliente (telefono y direccion)
+	- precio estimado
+	- tiempo estimado
+	- fecha limite
+	- jefe de proyecto
+
+- Documento de organizacion (se elabora para planificar los roles, tareas, y tiempo de los empleados para diseñar el producto)
+Atributos:	- numero de contrato
+	- jefe de proyecto
+	- empleados
+	- fecha limite
+	- tareas a realizar
+
+- Presupuesto (contiene precio y tiempo estimados en base a requisitos del cliente)
+Atributos:	- CIF/NIF cliente
+	- precio estimado
+	- tiempo estimado
+	- contacto cliente (telefono y direccion)
