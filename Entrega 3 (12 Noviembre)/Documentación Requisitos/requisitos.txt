@@ -38,6 +38,23 @@ Atributos:	- numero de presupuesto
 	// - contacto cliente (telefono y direccion)
 	- tecnologia principal
 
+Casos de Uso:
+
+- CU1 Factura:
+Buscar todas las facturas no pagadas que tiene un cliente para ver cuanto nos debe
+
+- CU2 Prototipo:
+Buscar todos los prototipos de los que ha estado encargado un jefe de proyecto para saber por qué tienen valoraciones bajas
+
+- CU3 Contrato:
+Buscar todos los contratos que la empresa contrajo el año pasado para establecer si estamos cogiendo más contratos este año
+
+- CU4 Documento de organizacion:
+Buscar todos los proyectos que tienen como fecha limite el mes que viene para ver si estamos al dia con todo
+
+- CU5 Presupuesto:
+Buscar todos los presupuestos no formalizados que usan una tecnología, para determinar qué tecnología tiene más probabilidades de llevar a un contrato
+
 Objetivos:
 - Actualizar la gestion documental de la empresa para hacer mas facil la busqueda y clasificacion de documentos
 
