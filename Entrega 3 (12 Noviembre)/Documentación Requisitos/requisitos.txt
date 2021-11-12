@@ -1,39 +1,49 @@
-Tipos de documentos:
+Requisitos de informacion:
 
-- Facturacion estimada
-Tipo/aspecto de contrato y presupuesto
-
-- Facturas (se le envian al cliente despues de terminar el prototipo y se mandan junto con este)
+- RI1 Facturas (se le envian al cliente despues de terminar el prototipo y se mandan junto con este; dividir en pagadas y no pagadas)
 Atributos:	- CIF/NIF cliente
-	- direccion (facturacion) cliente
+	// - direccion (facturacion) cliente
 	- fecha
-	- precio total
-	- tiempo invertido
+	// - precio total
+	// - tiempo invertido
 
-- Prototipo (documento detallando la funcionalidad del prodcuto y todas sus caracteristicas)
+- RI2 Prototipo (documento detallando la funcionalidad del prodcuto y todas sus caracteristicas)
 Atributos:	- numero factura
-	- caracteristicas del producto
+	- tecnologia principal
 	- jefe de proyecto
 
-- Contrato (se pacta con el cliente para empezar a desarrollar un producto/prototipo)
+- RI3 Contrato (se pacta con el cliente para empezar a desarrollar un producto/prototipo)
 Atributos:	- numero contrato
 	- fecha
 	- CIF/NIF cliente
-	- contacto cliente (telefono y direccion)
-	- precio estimado
-	- tiempo estimado
+	// - contacto cliente (telefono y direccion)
+	//- precio estimado
+	//- tiempo estimado
 	- fecha limite
 	- jefe de proyecto
 
-- Documento de organizacion (se elabora para planificar los roles, tareas, y tiempo de los empleados para diseñar el producto)
+- RI4 Documento de organizacion (se elabora para planificar los roles, tareas, y tiempo de los empleados para diseñar el producto)
 Atributos:	- numero de contrato
-	- jefe de proyecto
+	- dni jefe de proyecto???
 	- empleados
 	- fecha limite
-	- tareas a realizar
+	//- tareas a realizar
 
-- Presupuesto (contiene precio y tiempo estimados en base a requisitos del cliente)
-Atributos:	- CIF/NIF cliente
-	- precio estimado
-	- tiempo estimado
-	- contacto cliente (telefono y direccion)
+- RI5 Presupuesto (contiene precio y tiempo estimados en base a requisitos del cliente; realizados y no realizados)
+Atributos:	- numero de presupuesto
+	- fecha
+	- CIF/NIF cliente
+	//- precio estimado
+	//- tiempo estimado
+	// - contacto cliente (telefono y direccion)
+	- tecnologia principal
+
+Objetivos:
+- Actualizar la gestion documental de la empresa para hacer mas facil la busqueda y clasificacion de documentos
+
+Reglas de negocio
+- Cada cliente tiene accesos de lectura a sus proyectos (abonado/no abonado) (factura y prototipo)
+- Cada cliente tiene accesos de lectura a sus presupuestos (pendientes/realizados)
+- Cada cliente tiene accesos de lectura a sus contratos
+- Los clientes no tienen accesos de lectura a documentos de planificacion
+- Solo la empresa tiene accesos de lectura y escritura a todos los documentos
