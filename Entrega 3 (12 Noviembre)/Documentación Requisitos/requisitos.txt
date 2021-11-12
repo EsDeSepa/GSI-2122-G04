@@ -7,7 +7,7 @@ Atributos:	- CIF/NIF cliente
 	// - precio total
 	// - tiempo invertido
 
-- RI2 Prototipo (documento detallando la funcionalidad del prodcuto y todas sus caracteristicas)
+- RI2 Prototipo (documento detallando la funcionalidad del producto y todas sus caracteristicas)
 Atributos:	- numero factura
 	- tecnologia principal
 	- jefe de proyecto
@@ -15,7 +15,7 @@ Atributos:	- numero factura
 - RI3 Contrato (se pacta con el cliente para empezar a desarrollar un producto/prototipo)
 Atributos:	- numero contrato
 	- fecha
-	- CIF/NIF cliente
+	- CIF/NIF cliente+
 	// - contacto cliente (telefono y direccion)
 	//- precio estimado
 	//- tiempo estimado
