@@ -1,0 +1,85 @@
+Requisitos de informacion:
+
+- RI1 Facturas (se le envian al cliente despues de terminar el prototipo y se mandan junto con este; dividir en pagadas y no pagadas)
+Atributos:	- CIF/NIF cliente				*
+	// - direccion (facturacion) cliente
+	- fecha					*
+	// - precio total
+	// - tiempo invertido
+
+- RI2 Prototipo (documento detallando la funcionalidad del producto y todas sus caracteristicas)
+Atributos:	// - numero factura
+	- tecnologia principal				*
+	- jefe de proyecto				*
+
+- RI3 Contrato (se pacta con el cliente para empezar a desarrollar un producto/prototipo)
+Atributos:	- numero contrato				*
+	- fecha					*
+	- CIF/NIF cliente				*
+	// - contacto cliente (telefono y direccion)
+	//- precio estimado
+	//- tiempo estimado
+	//- fecha limite
+	- jefe de proyecto				!
+
+- RI4 Documento de organizacion (se elabora para planificar los roles, tareas, y tiempo de los empleados para diseñar el producto)
+Atributos:	//- numero de contrato
+	- jefe de proyecto				!
+	- grupo de trabajo (grupo de empleados asignado)	*
+	- fecha limite				*
+	//- tareas a realizar
+
+- RI5 Presupuesto (contiene precio y tiempo estimados en base a requisitos del cliente; realizados y no realizados)
+Atributos:	- numero de presupuesto			!
+	- fecha					*
+	- CIF/NIF cliente				!
+	//- precio estimado
+	//- tiempo estimado
+	// - contacto cliente (telefono y direccion)
+	- tecnologia principal				*
+
+Casos de Uso:
+
+- CU1 Factura (frecuente):
+Buscar todas las facturas no pagadas que tiene un cliente para ver cuanto nos debe.					[CIF cliente]
+
+-CU2 Factura (no frecuente):
+Buscar todas las facturas de un año pagadas para hacer la declaracion de la renta.							[fecha]
+
+-CU1 Prototipo (no frecuente):
+Buscar todos los prototipos de una misma tecnología, para ver cómo de rentable es dicha tecnología.					[tecnologia usada]
+
+-CU2 Prototipo (no frecuente):
+Buscar todos los prototipos de los que ha estado encargado un jefe de proyecto para saber por qué tienen valoraciones bajas.		[jefe de proyecto]
+
+-CU1 Contrato (no frecuente):
+Buscar todos los contratos que nos hace un cliente habitual, para determinar cuando es posible que realice el proximo contrato.		[CIF cliente]
+
+- CU2 Contrato (no frecuente):
+Buscar todos los contratos que la empresa contrajo el año pasado para establecer si estamos cogiendo más contratos este año.		[fecha]
+
+-CU3 Contrato (no frecuente):
+La gestora necesita buscar un contrato por el numero de contrato para ver si ya ha sido realizado.					[numero contrato]
+
+- CU1 Documento de organizacion (frecuente):
+Buscar todos los proyectos que tienen como fecha limite el mes que viene para ver si estamos al dia con todo.				[fecha]
+
+-CU2 Documento de organizacion (no frecuente):
+Buscar todos los proyectos a los que esta asignado un grupo de trabajo para ver si pueden asignarle otro proyecto.				[grupo de trabajo]
+
+- CU1 Presupuesto (no frecuente):
+Buscar todos los presupuestos no formalizados que usan una tecnología para saber si tiene más probabilidades de llevar a un contrato.		[tecnologia usada]
+
+- CU2 Presupuesto (no frecuente):
+Buscar todos los presupuestos realizados este año, para tener una estimación de las ganancias del año.					[fecha]
+
+Objetivos:
+- Actualizar la gestion documental de la empresa para hacer mas facil la busqueda y clasificacion de documentos.
+- Poder analizar nuestros gastos y beneficios en profundidad, para conocer qué oportunidades nos benefician más y que operaciones nos perjudican.
+
+Reglas de negocio
+- Cada cliente tiene accesos de lectura a sus proyectos. (abonado/no abonado) (factura y prototipo)
+- Cada cliente tiene accesos de lectura a sus presupuestos. (pendientes/realizados)
+- Cada cliente tiene accesos de lectura a sus contratos.
+- Los clientes no tienen accesos de lectura a documentos de planificacion.
+- Solo la empresa tiene accesos de lectura y escritura a todos los documentos.
