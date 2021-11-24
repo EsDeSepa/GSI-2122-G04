@@ -1,0 +1,43 @@
+Requisitos información
+
+- dividirse en canales: 
+	general (publico) -> todos los miembros de la empresa {canal principal}
+	reuniones (publico) -> todos los miembros de la empresa {canal con información relativa a las reuniones programadas}
+	subcontratas (privado) -> grupo de trabajo + empleados subcontratados {canal para comunicarse con los empleados subcontratados}
+	grupo de trabajo xx (privado) -> miembros de un grupo de trabajo {canal para trabajar en la parte del proyecto encargada}
+	departamento RRHH (privado) -> jefe, jefes de proyecto y empleados departamento RRHH {canal para compartir y solicitar informacion y documentos fiscales y legales}
+
+- compartir archivos:
+	general -> resto de archivos
+	reuniones -> puntos a tratar en reuniones, diapositivas
+	subcontratas -> reparto de tareas, partes del proyecto
+	grupo de trabajo -> reparto de tareas, partes del proyecto
+	departamento RRHH -> presupuestos, contratos, facturas
+
+
+Requisitos funcionales
+
+- tener una ventana de tareas, para organizar el trabajo (tasks by planner)
+
+- tener un calendario para poder organizar reuniones ()
+
+- tener una ventana con informacion relativa a las herramientas y elementos que usamos, enfocada a nuevos empleados (wiki)
+
+- tener una ventana con una pizarra, para mostrar bocetos de diseño e ideas conceptuales
+
+- tener una encuesta recurrente sobre el ambiente de trabajo (semanal o mensual)
+
+
+Reglas de negocio
+
+- solo el jefe puede crear canales y modificar las ventanas
+
+-  en canales:
+	general -> administrador: jefe
+	reuniones -> administrador: jefe
+	subcontratas -> administrador: jefe de proyecto
+	grupo de trabajo -> administrador: jefe de proyecto
+	departamento RRHH -> administrador: jefe de proyecto
+
+
+
