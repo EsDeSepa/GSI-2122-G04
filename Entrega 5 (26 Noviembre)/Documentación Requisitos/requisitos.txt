@@ -1,7 +1,8 @@
 Requisitos información
 
 - dividirse en canales: 
-	general (publico) -> todos los miembros de la empresa + clientes {canal principal y para hablar con clientes}
+	general (publico) -> todos los miembros de la empresa + clientes {canal principal}
+	clientes (privado) -> jefe + jefes de proyecto + clientes {canal para hablar con los clientes}
 	empresa (privado) -> todos los miembros de la empresa {canal de la empresa}
 	reuniones (publico) -> todos los miembros de la empresa {canal con información relativa a las reuniones programadas}
 	subcontratas (privado) -> grupo de trabajo + empleados subcontratados {canal para comunicarse con los empleados subcontratados}
@@ -9,7 +10,8 @@ Requisitos información
 	departamento RRHH (privado) -> jefe, jefes de proyecto y empleados departamento RRHH {canal para compartir y solicitar informacion y documentos fiscales y legales}
 
 - compartir archivos:
-	general -> documentos empresa, documentos cliente
+	general -> documentos empresa
+	clientes -> documentos cliente
 	empresa -> documentos empresa
 	reuniones -> puntos a tratar en reuniones, diapositivas
 	subcontratas -> reparto de tareas, partes del proyecto
@@ -21,7 +23,7 @@ Requisitos funcionales
 
 - tener una ventana de tareas, para organizar el trabajo (tasks by planner)
 
-- tener un calendario para poder organizar reuniones ()
+- tener un calendario para poder organizar reuniones (calendarpro?)
 
 - tener una ventana con informacion relativa a las herramientas y elementos que usamos, enfocada a nuevos empleados (wiki)
 
@@ -36,6 +38,7 @@ Reglas de negocio
 
 -  en canales:
 	general -> administrador: jefe
+	clientes -> administrador: jefe 
 	empresa -> administrador: jefe
 	reuniones -> administrador: jefe
 	subcontratas -> administrador: jefe de proyecto
