@@ -1,14 +1,16 @@
 Requisitos información
 
 - dividirse en canales: 
-	general (publico) -> todos los miembros de la empresa {canal principal}
+	general (publico) -> todos los miembros de la empresa + clientes{canal principal}
+	empresa (privado) -> todos los miembros de la empresa {canal de la empresa}
 	reuniones (publico) -> todos los miembros de la empresa {canal con información relativa a las reuniones programadas}
 	subcontratas (privado) -> grupo de trabajo + empleados subcontratados {canal para comunicarse con los empleados subcontratados}
 	grupo de trabajo xx (privado) -> miembros de un grupo de trabajo {canal para trabajar en la parte del proyecto encargada}
 	departamento RRHH (privado) -> jefe, jefes de proyecto y empleados departamento RRHH {canal para compartir y solicitar informacion y documentos fiscales y legales}
 
 - compartir archivos:
-	general -> resto de archivos
+	general -> documentos empresa, documentos cliente
+	empresa -> documentos empresa
 	reuniones -> puntos a tratar en reuniones, diapositivas
 	subcontratas -> reparto de tareas, partes del proyecto
 	grupo de trabajo -> reparto de tareas, partes del proyecto
@@ -34,6 +36,7 @@ Reglas de negocio
 
 -  en canales:
 	general -> administrador: jefe
+	empresa -> administrador: jefe
 	reuniones -> administrador: jefe
 	subcontratas -> administrador: jefe de proyecto
 	grupo de trabajo -> administrador: jefe de proyecto
