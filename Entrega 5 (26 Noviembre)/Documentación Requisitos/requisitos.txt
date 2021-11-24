@@ -1,7 +1,7 @@
 Requisitos información
 
 - dividirse en canales: 
-	general (publico) -> todos los miembros de la empresa + clientes{canal principal}
+	general (publico) -> todos los miembros de la empresa + clientes {canal principal y para hablar con clientes}
 	empresa (privado) -> todos los miembros de la empresa {canal de la empresa}
 	reuniones (publico) -> todos los miembros de la empresa {canal con información relativa a las reuniones programadas}
 	subcontratas (privado) -> grupo de trabajo + empleados subcontratados {canal para comunicarse con los empleados subcontratados}
