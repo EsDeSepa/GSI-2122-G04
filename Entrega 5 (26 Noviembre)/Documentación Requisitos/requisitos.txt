@@ -4,7 +4,7 @@ Requisitos información
 	general (publico) -> todos los miembros de la empresa + clientes {canal principal}
 	clientes (privado) -> jefe + jefes de proyecto + clientes {canal para hablar con los clientes}
 	empresa (privado) -> todos los miembros de la empresa {canal de la empresa}
-	reuniones (publico) -> todos los miembros de la empresa {canal con información relativa a las reuniones programadas}
+	reuniones (privado) -> todos los miembros de la empresa {canal con información relativa a las reuniones programadas}
 	subcontratas (privado) -> grupo de trabajo + empleados subcontratados {canal para comunicarse con los empleados subcontratados}
 	grupo de trabajo xx (privado) -> miembros de un grupo de trabajo {canal para trabajar en la parte del proyecto encargada}
 	departamento RRHH (privado) -> jefe, jefes de proyecto y empleados departamento RRHH {canal para compartir y solicitar informacion y documentos fiscales y legales}
