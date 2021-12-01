@@ -1,0 +1,80 @@
+Requisitos información
+
+- division en grupos:
+	- clientes:
+		general
+		reuniones
+	- grupo de trabajo:
+		general
+		reuniones
+	- grupo subcontrata:
+		general
+		reuniones
+	- empresa:
+		general
+		reuniones
+	- departamento RRHH:
+		general
+		reuniones
+	general (publico) -> todos los miembros de la empresa + clientes {canal principal}
+	clientes (privado) -> jefe + jefes de proyecto + clientes {canal para hablar con los clientes}
+	empresa (privado) -> todos los miembros de la empresa {canal de la empresa}
+	reuniones (privado) -> todos los miembros de la empresa {canal con información relativa a las reuniones programadas}
+	subcontratas (privado) -> grupo de trabajo + empleados subcontratados {canal para comunicarse con los empleados subcontratados}
+	grupo de trabajo xx (privado) -> miembros de un grupo de trabajo {canal para trabajar en la parte del proyecto encargada}
+	departamento RRHH (privado) -> jefe, jefes de proyecto y empleados departamento RRHH {canal para compartir y solicitar informacion y documentos fiscales y legales}
+
+- compartir archivos:
+	general -> documentos empresa
+	clientes -> documentos cliente
+	empresa -> documentos empresa
+	reuniones -> puntos a tratar en reuniones, diapositivas
+	subcontratas -> reparto de tareas, partes del proyecto
+	grupo de trabajo -> reparto de tareas, partes del proyecto
+	departamento RRHH -> presupuestos, contratos, facturas
+
+
+Requisitos funcionales
+
+- tener una ventana de tareas, para organizar el trabajo (tasks by planner)
+
+- tener un calendario para poder organizar reuniones (calendarpro?)
+
+- tener una ventana con informacion relativa a las herramientas y elementos que usamos, enfocada a nuevos empleados (wiki)
+
+- tener una ventana con una pizarra, para mostrar bocetos de diseño e ideas conceptuales
+
+- tener una encuesta recurrente sobre el ambiente de trabajo (semanal o mensual)
+
+
+Reglas de negocio
+
+- solo el jefe puede crear canales y modificar las ventanas
+
+-  en canales:
+	general -> administrador: jefe
+	clientes -> administrador: jefe 
+	empresa -> administrador: jefe
+	reuniones -> administrador: jefe
+	subcontratas -> administrador: jefe de proyecto
+	grupo de trabajo -> administrador: jefe de proyecto
+	departamento RRHH -> administrador: jefe de proyecto
+
+
+DAFO
+
+- Fortaleza: Personal joven y con experiencia tecnologica para el desarrollo a medida
+
+- Debilidad: poco personal para la gestión de multitud de proyectos
+
+- Oportunidades: integración de lenguajes y tecnologías en auge
+
+- Amenazas: mercado muy competitivo
+
+
+Vision: Mejorar las comunicaciones entre los empleados y clientes ya existentes, y optimizar la gestión y organización de proyectos
+
+Misión: Integrar las herramientas para la optimización de las comunicaciones
+
+
+
