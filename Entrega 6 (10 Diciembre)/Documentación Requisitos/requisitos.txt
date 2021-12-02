@@ -4,18 +4,26 @@ Requisitos información
 	- clientes:
 		general
 		reuniones
+		sugerencias
+		{sin planner}
 	- grupo de trabajo:
 		general
 		reuniones
+		proyecto
+		{con pizarra}
 	- grupo subcontrata:
 		general
 		reuniones
+		proyecto
+		{con pizarra}
 	- empresa:
 		general
 		reuniones
+		sugerencias
 	- departamento RRHH:
 		general
 		reuniones
+		sugerencias
 	general (publico) -> todos los miembros de la empresa + clientes {canal principal}
 	clientes (privado) -> jefe + jefes de proyecto + clientes {canal para hablar con los clientes}
 	empresa (privado) -> todos los miembros de la empresa {canal de la empresa}
