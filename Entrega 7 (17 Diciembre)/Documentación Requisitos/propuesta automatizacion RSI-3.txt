@@ -1,2 +1,14 @@
-proceso 1:
-si hay presupuesto y se acepta -> generar contrato ->  cuando contrato firmado -> generar factura
+RF1: Reubicación de un documento cuando se sube otro documento
+Cuando se sube un documento, se solicita aprobación, si esta es concedida, se mueve el documento a otra ubicación.
+
+RF2: Creación de tarea en planner de Subcontrata a través de mensaje en teams
+Se crea una tarea cuando se utiliza la cadena TODO al principio de un mensaje en Teams, si esta es aprobada, se publica en el Planner.
+
+RF3: Generar factura a raíz de presupuesto
+Al generar un presupuesto, si se acepta se genera un contrato pendiente de firma, al firmarse se genera una factura.
+
+
+
+RI1: mensaje/s en grupo de teams
+RI2: documento (contrato)
+RI3: formulario de presupuesto
