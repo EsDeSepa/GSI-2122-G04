@@ -1,0 +1,2 @@
+proceso 1:
+si hay presupuesto y se acepta -> generar contrato ->  cuando contrato firmado -> generar factura
