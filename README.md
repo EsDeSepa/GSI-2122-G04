@@ -1,7 +1,7 @@
 # GSI-2122-G04
 En este repositorio se va a organizar el proyecto de Gestión de Sistemas de Información, asignatura del 3º Curso de la Universidad de Sevilla.
 
-El proyecto abarca 4 sistemas de información, CMS, DMS, RSI y RSE, cada uno dividido en 2 entregas además de la entrega final.
+El proyecto abarca 4 sistemas de información, CMS, DMS, RSI y RSE, cada uno dividido en las respectivas entregas además de la entrega final.
 
 Nuestro grupo se compone de 5 miembros:
 
