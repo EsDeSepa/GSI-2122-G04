@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>RSS Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Components" transform="translate(-777.000000, -995.000000)" fill="#B2B2B2">
+            <g id="Social" transform="translate(100.000000, 849.000000)">
+                <g id="Small-Icons" transform="translate(521.000000, 145.000000)">
+                    <g id="RSS-Icon" transform="translate(156.000000, 1.000000)">
+                        <path d="M11.836,14.618 C11.836,8.104 6.527,2.802 0.005,2.802 L0.005,0 C8.082,0 14.652,6.56 14.652,14.618 L11.836,14.618 L11.836,14.618 Z M9.672,14.618 L6.852,14.618 C6.852,12.785 6.138,11.064 4.845,9.774 C3.551,8.481 1.831,7.769 0.001,7.769 L0.001,4.966 C5.333,4.966 9.672,9.293 9.672,14.618 L9.672,14.618 Z M1.95,10.719 C3.03,10.719 3.902,11.594 3.902,12.662 C3.902,13.733 3.03,14.599 1.95,14.599 C0.874,14.599 0,13.733 0,12.662 C0,11.594 0.874,10.719 1.95,10.719 L1.95,10.719 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
